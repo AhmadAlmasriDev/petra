@@ -1,0 +1,84 @@
+/* Fonts used Fraunces and inter */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300;1,400&family=Inter&display=swap');
+
+
+/* 
+color used:
+    backgrounds:
+        off white #ede5d4
+        white #ffffff
+        orange #c44536
+        dark orange: #a63a2e
+    text:
+        dark brown #39312d
+    border:
+        gray #e0e0e0
+
+
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter, sans-serif;
+    color: #39312d;
+}
+a{  
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    font-family: Fraunces, sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px 0 rgba(57, 49, 45, 0.08);
+    
+}
+/* navigation------------------------------ */
+#nav-container{
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+
+}
+
+#logo{
+    line-height: 80%;
+    /* font-weight: normal; */
+    text-transform: uppercase;  
+    font-size:250%;
+}
+#nav-container p{
+    line-height: 130%;
+    text-align:center;
+    /* padding-left:5px; */
+    color: #ffffff;
+    background-color: #c44536;
+}
+
+#nav-container nav{
+    margin-left: auto;
+
+}
+#nav-menu{
+    font-size:100%;
+    display: flex;
+}
+#nav-menu li{
+    list-style-type:none;
+    padding:20px;
+    /* margin-left: 30px; */
+}
