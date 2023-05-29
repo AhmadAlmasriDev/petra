@@ -82,7 +82,12 @@ p{
     color: #ffffff;
     transform: translateY(-5px);
 }
-
+.sec-container{
+    width: 100%;
+    max-width: 1600px;   
+    margin: auto;
+    
+}
 .flex-container{
     display: flex;
     align-items: center;
@@ -106,9 +111,7 @@ header.flex-container  {
     
 }
 
-#nav-container{    
-    width: 100%;
-    max-width: 1600px;    
+#nav-container{      
     justify-content: space-between;  
 }
 
@@ -177,15 +180,7 @@ header.flex-container  {
 }
 
 /* Hero image------------------------- */
-.hero-container{
-    width: 100%;
-    max-width: 1600px;
-    
-    
-    
-    margin: auto;
-    
-}
+
 .image-container{
     height:600px;
     width: 650px;
@@ -220,11 +215,23 @@ header.flex-container  {
 /* Gallery section------------------------- */
 
 #gallery-sec{
-    background-color: #ede5d4;
+    background-color: #ffffff;
     padding: 64px 0;
 }
 
+.sec-header{
+    padding-left: 64px;
+    
 
+}
+
+.main-video{
+    width: 1120px;
+    height: 630px;
+    margin: auto;
+    display: block;
+     /* width="1120" height="630"  */
+}
 
 
 
