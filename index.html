@@ -13,28 +13,82 @@
 </head>
 <body>
 
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic%7CInter:100,200,300,regular,500,600,700,800,900" media="all"> -->
+
+<!-- 
+
+<div class="heading-39101 mb-5">
+<span class="backdrop">petra</span>
+<span class="subtitle-39191">.</span>
+<h3>The Lost City</h3>
+</div>
+
+heading-39101 mb-5
+
+    text-align: left;
+    line-height: 1.7;
+    color: #364d59;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+    position: relative;
+
+
+backdrop    
+    text-align: left;
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+    line-height: 1;
+    top: -20%;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900;
+    font-size: 5rem;
+    color: #efefef;
+
+h3
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    color: #000;
+    font-family: "Work Sans", sans-serif;
+
+
+-->
     <!-- ------------------------------------ -->
     <header>
-        <a href="index.html">logo</a>
-        <nav>
-            <ul>
-                <li>
-                  <a href="index.html">Home</a>  
-                </li>
-                <li>
-                  <a href="#">Gallery</a>  
-                </li>
-                <li>
-                    <a href="#">About</a>  
-                </li>
-                <li>
-                    <a href="#">Tours</a>  
-                </li>
-                <li>
-                  <a href="#">Contact</a>  
-                </li>
-            </ul>
-        </nav>
+        <div id="nav-container">
+            <a href="index.html">
+                <h1 id="logo">petra</h1>
+                <p>the red rose city</p>
+            </a>
+            <nav>
+                <ul id="nav-menu">
+                    <li>
+                    <a href="index.html" class="active">Home</a>  
+                    </li>
+                    <li>
+                    <a href="#">Gallery</a>  
+                    </li>
+                    <li>
+                        <a href="#">About</a>  
+                    </li>
+                    <li>
+                        <a href="#">Tours</a>  
+                    </li>
+                    <li>
+                    <a href="#">Contact</a>  
+                    </li>
+                </ul>
+            </nav>
+        <div>
     </header>
 
     <!-- ------------------------------------ -->
@@ -42,12 +96,16 @@
 
         <!-- ------------------------------------ -->
         <section id="hero-sec">
-            <div id="hero-cover-text">
-                <h1>the red rose city</h1>
-                <p>The city of Petra, capital of the Nabataean Arabs, is one of the most famous archaeological sites in the world, it is Located 240 km south of the capital Amman and 120 km north of the red sea town of Aqaba, Petra the world wonder, is undoubtedly Jordan's most valuable treasure and greatest tourist attraction, and it is visited by tourists from all over the world.</p>
+            <div class="hero-container">
+                <div class="hero-cover-text">
+                    <h1>the red rose city</h1>
+                    <p>The city of Petra, capital of the Nabataean Arabs, is one of the most famous archaeological sites in the world, it is Located 240 km south of the capital Amman and 120 km north of the red sea town of Aqaba, Petra the world wonder, is undoubtedly Jordan's most valuable treasure and greatest tourist attraction, and it is visited by tourists from all over the world.</p>
+                    <a href="#" class="button">more info</a>
+                </div>
+                <a href="index.html" class="image-container">
+                    <div></div>
+                </a>
             </div>
-            <div id="hero-image"></div>
-            <a href="#">more info</a>
             <hr>
         </section>
 
