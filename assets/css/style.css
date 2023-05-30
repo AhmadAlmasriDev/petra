@@ -66,6 +66,11 @@ p{
     margin-bottom:20px;
 }
 
+hr{
+    margin: 64px auto;
+    border-top: #e0e0e0 solid 1px;
+    width: 100%;
+}
 .button{
     
     font-size: 120%;
@@ -193,7 +198,7 @@ header.flex-container  {
 .image-container > div{
     height: 100%;        
     /* width: 650px; */
-    background: url("../image/hero-pic2.jpg") no-repeat center center / cover;
+    background: url("../image/hero-image.jpg") no-repeat center center / cover;
     transition: .5s ease;
 }
 
@@ -221,7 +226,7 @@ header.flex-container  {
 
 .sec-header{
     padding-left: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 48px;
 
 
@@ -230,6 +235,8 @@ header.flex-container  {
 #video-frame{
     width: 1120px;
     height: 630px;
+    /* width: 560px; 
+    height: 315px; */
     margin: auto;
     display: block;
     
@@ -244,65 +251,85 @@ header.flex-container  {
 
 
 /* Photo gallery---------------------------- */
+
 .gallery-container {
+    
     display: block;
     margin:auto;
     width: 100%;
     max-width:1400px;
-    padding: 40px 5%;
+    padding: 100px 64px;
 }
-
 
 
 /* Responsive image gallery rules begin*/
 
 .image-gallery {
+  /* Mobile first */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.image-gallery > figure {
-    flex-basis: 350px; /*width: 350px;*/
-    position: relative;
-    cursor: pointer;
+.image-gallery .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.image-gallery::after {
-    content: "";
-    flex-basis: 350px;
+.image-item img {
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+  object-fit: cover;
 }
 
-.image-gallery figure img {
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 15px;
+@media only screen and (min-width: 758px) {
+  .image-gallery {
+    flex-direction: row;
+  }
+}
+
+/* overlay styles */
+
+.image-item {
+  position: relative;
+  cursor: pointer;
 }
 
 .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(57, 57, 57, 0.502);
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transition: all 0.2s 0.1s ease-in-out;
-    color: #ffffff;
-    font-size: 22px;
-    border-radius: 15px;
-    /* center overlay text */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+  border-radius: 15px;
+  /* center overlay content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+}
+.overlay h3{
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom:6px;
+       
+}
+
+.overlay p{       
+    font-size: 20px;
+    line-height:22px;
+    margin-bottom:0;
 }
 
 /* hover */
-.image-gallery figure:hover .overlay {
-    transform: scale(1);
+.image-item:hover .overlay {
+  transform: scale(1);
 }
 
 
