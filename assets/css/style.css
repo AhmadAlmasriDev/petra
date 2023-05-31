@@ -362,8 +362,8 @@ header.flex-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 32px;
+    row-gap: 64px;
 }
 
 
@@ -386,8 +386,14 @@ header.flex-container {
     /* cursor: pointer; */
 }
 
-.article-caption {}
+.article-caption {
+    display: inline-block;
+    margin-top: 20px;
+}
 
+h3.article-caption a:hover {
+    color: #a63a2e;
+}
 
 /* 
 .gallery-container {
