@@ -358,6 +358,8 @@ header.flex-container {
 
 #articles-container {
     width: 100%;
+    margin: auto;
+    max-width: 1400px;
     padding: 0 64px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -394,6 +396,49 @@ header.flex-container {
 h3.article-caption a:hover {
     color: #a63a2e;
 }
+
+/* contact section-------------------------- */
+
+#contact-sec {
+    height: 400px;
+    background-image: url("../image/contact-background-image.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: red; */
+}
+
+#contact-container {}
+
+/* 
+.bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+    .bg-image.overlay:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            width: 100%;
+            background: rgba(239, 186, 108, 0.4);
+    
+    
+    
+    
+    
+    
+    */
+
+
+
+
 
 /* 
 .gallery-container {
