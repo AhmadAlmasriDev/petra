@@ -1,8 +1,8 @@
 /* Fonts used Fraunces and inter */
- @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@400;500&display=swap');
 
 
- /* 
+/* 
 color used:
     backgrounds:
         off white #ede5d4
@@ -19,90 +19,103 @@ color used:
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
-    border:0;
+    border: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Inter, sans-serif;
     background-color: #ffffff;
     color: #39312d;
 }
-a{  
+
+a {
     text-decoration: none;
     color: #39312d;
 }
 
-h1,h2,h3{
-    font-family: Fraunces, sans-serif;    
-}
-main h1, main h2, main h3{
-    font-weight: 600;
-    
+h1,
+h2,
+h3 {
+    font-family: Fraunces, sans-serif;
 }
 
-main h1{
-    font-size:55px;      
-    margin-bottom:18px; 
+main h1,
+main h2,
+main h3 {
+    font-weight: 600;
+
+}
+
+main h1 {
+    font-size: 55px;
+    margin-bottom: 18px;
     /* letter-spacing:-3px; */
 }
 
-main h2{
-    font-size:38px;  
-    margin-bottom:24px;  
-    letter-spacing:-1.5px;  
+main h2 {
+    font-size: 38px;
+    margin-bottom: 24px;
+    letter-spacing: -1.5px;
 }
 
-main h3{
-    font-size:24px;  
-    margin-bottom:12px;  
-    letter-spacing:-0.5px;   
-}
-p{
-    font-size:18px;
-    line-height:1.9em;
-    margin-bottom:20px;
+main h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
 }
 
-hr{
+p {
+    font-size: 18px;
+    line-height: 1.9em;
+    margin-bottom: 20px;
+}
+
+hr {
     margin: 64px auto;
     border-top: #e0e0e0 solid 1px;
     width: 100%;
 }
-.button{
-    
+
+.button {
+
     font-size: 120%;
     font-weight: 500;
     background-color: #c44536;
     padding: 12px 24px;
-    border-radius:50px;
+    border-radius: 50px;
     color: #ffffff;
     /* position: absolute; */
     /* transition: .5s ease; */
 }
-.button:hover{
+
+.button:hover {
     background-color: #a63a2e;
     color: #ffffff;
     transform: translateY(-5px);
 }
-.sec-container{
+
+.sec-container {
     width: 100%;
-    max-width: 1600px;   
+    max-width: 1600px;
     margin: auto;
-    
+
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 64px;
 }
+
 /* Header---------------------------------- */
-header{
+header {
     position: relative;
-    z-index:1000;
+    z-index: 1000;
     width: 100%;
     height: 100px;
     background-color: #ffffff;
@@ -111,229 +124,247 @@ header{
 }
 
 /* reset the header padding---------------- */
-header.flex-container  {
-    padding:0;
-    
+header.flex-container {
+    padding: 0;
+
 }
 
-#nav-container{      
-    justify-content: space-between;  
+#nav-container {
+    justify-content: space-between;
 }
 
 /* The logo consists of an h1 and p-------- */
-#logo{
+#logo {
     color: #39312d;
     line-height: 80%;
-    
-    text-transform: uppercase;  
-    font-size:250%;
+
+    text-transform: uppercase;
+    font-size: 250%;
 }
-#nav-container p{
+
+#nav-container p {
     line-height: 130%;
-    text-align:center;
+    text-align: center;
     /* padding-left:5px; */
     color: #ffffff;
     background-color: #c44536;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 /* navigation menu------------------------- */
-#nav-container nav{
+#nav-container nav {
     margin-left: auto;
 
 }
-#nav-menu{
-    font-family: Inter, sans-serif; 
+
+#nav-menu {
+    font-family: Inter, sans-serif;
     font-size: 120%;
     font-weight: 500;
     /* align-items:center;
     justify-content: space-between; */
-    padding:0;
+    padding: 0;
 
-    
+
 }
-#nav-menu li{
 
-    list-style-type:none;
-    padding:20px;
+#nav-menu li {
+
+    list-style-type: none;
+    padding: 20px;
     /* margin-left: 30px; */
 }
-#nav-menu a:hover{
-    color:#a63a2e;
+
+#nav-menu a:hover {
+    color: #a63a2e;
 }
 
-.active{
+.active {
     background-color: #c44536;
     padding: 12px 24px;
-    border-radius:50px;
+    border-radius: 50px;
     color: #ffffff;
 }
-#nav-menu a.active:hover{
+
+#nav-menu a.active:hover {
     background-color: #a63a2e;
     color: #ffffff;
 }
 
 /* Hero section------------------------- */
 
-#hero-sec{
+#hero-sec {
     background-color: #ede5d4;
     padding: 64px 0;
-    
+
     /* z-index: 0; */
     /* overflow: hidden; */
-    
+
 }
 
 /* Hero image------------------------- */
 
-.image-container{
-    height:600px;
+.image-container {
+    height: 600px;
     width: 650px;
-    border-radius:25px;
+    border-radius: 25px;
     overflow: hidden;
     /* position: relative; */
-    margin-left:auto;
-    
+    margin-left: auto;
+
 }
-.image-container > div{
-    height: 100%;        
+
+.image-container>div {
+    height: 100%;
     /* width: 650px; */
     background: url("../image/hero-image.jpg") no-repeat center center / cover;
     transition: .5s ease;
 }
 
-.image-container > div:hover{
+.image-container>div:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
 /* Hero cover text------------------------- */
-.hero-cover-text{
-    width:100%;
-    max-width:550px;
+.hero-cover-text {
+    width: 100%;
+    max-width: 550px;
 }
-.hero-cover-text p{
-    margin-bottom:48px;
-    
+
+.hero-cover-text p {
+    margin-bottom: 48px;
+
 }
 
 /* Gallery section------------------------- */
 
-#gallery-sec{
+#gallery-sec {
     background-color: #ffffff;
     padding: 64px 0;
 }
 
-.sec-header{
+.sec-header {
     padding-left: 64px;
     text-transform: capitalize;
     margin-bottom: 48px;
 
 
 }
-    
-#video-frame{
+
+#video-frame {
     width: 1120px;
     height: 630px;
     /* width: 560px; 
     height: 315px; */
     margin: auto;
     display: block;
-    
-    border-radius:25px;
+
+    border-radius: 25px;
     overflow: hidden;
-}    
-#video-frame iframe{
+}
+
+#video-frame iframe {
     width: 100%;
     height: 100%;
     /* video width="1120" height="630"  */
 }
 
-
 /* Photo gallery---------------------------- */
 
 .gallery-container {
-    
+
     display: block;
-    margin:auto;
+    margin: auto;
     width: 100%;
-    max-width:1400px;
+    max-width: 1400px;
     padding: 100px 64px;
 }
 
 
-/* Responsive image gallery rules begin*/
-
+/* Responsive--------------------------- */
 .image-gallery {
-  /* Mobile first */
+    /* Mobile first------------------------- */
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .image-gallery .column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .image-item img {
-  width: 100%;
-  border-radius: 15px;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media only screen and (min-width: 758px) {
-  .image-gallery {
-    flex-direction: row;
-  }
+    .image-gallery {
+        flex-direction: row;
+    }
 }
 
-/* overlay styles */
-
+/* overlay styles--------------------------- */
 .image-item {
-  position: relative;
-  cursor: pointer;
+    position: relative;
+    cursor: pointer;
 }
 
 .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(57, 57, 57, 0.502);
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transition: all 0.2s 0.1s ease-in-out;
-  color: #fff;
-  border-radius: 15px;
-  /* center overlay content */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(57, 57, 57, 0.502);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: #fff;
+    border-radius: 15px;
+    /* center overlay content---------------- */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
 }
-.overlay h3{
+
+.overlay h3 {
     font-size: 26px;
     line-height: 30px;
-    margin-bottom:6px;
-       
+    margin-bottom: 6px;
+
 }
 
-.overlay p{       
+.overlay p {
     font-size: 20px;
-    line-height:22px;
-    margin-bottom:0;
+    line-height: 22px;
+    margin-bottom: 0;
 }
 
-/* hover */
+/* hover effect----------------------------- */
 .image-item:hover .overlay {
-  transform: scale(1);
+    transform: scale(1);
+}
+
+/* about section---------------------------- */
+
+#articles-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr;
+
 }
 
 
-/* 
+
+
+    /* 
 .gallery-container {
   display: flex;
   flex-direction: column;
@@ -378,7 +409,7 @@ header.flex-container  {
 
 
 
-/* 
+    /* 
 
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 
