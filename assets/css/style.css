@@ -117,6 +117,35 @@ hr {
     padding: 0 64px;
 }
 
+/* base image container */
+.base-image-container {
+    width: 100%;
+
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.base-image-container img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+.base-image-container img:hover {
+    transform: scale(1.1);
+    /* cursor: pointer; */
+}
+
+.base-image-caption {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+h3.base-image-caption a:hover {
+    color: #a63a2e;
+}
+
+
 /* Header---------------------------------- */
 header {
     position: relative;
@@ -370,33 +399,12 @@ header.flex-container {
 }
 
 
-.article-image-container {
-    width: 100%;
+.article-image-size {
+
     height: 350px;
-    border-radius: 15px;
-    overflow: hidden;
+
 }
 
-.article-image-container img {
-    width: 100%;
-    object-fit: cover;
-    transition: .5s ease;
-}
-
-
-.article-image-container img:hover {
-    transform: scale(1.1);
-    /* cursor: pointer; */
-}
-
-.article-caption {
-    display: inline-block;
-    margin-top: 20px;
-}
-
-h3.article-caption a:hover {
-    color: #a63a2e;
-}
 
 /* contact section-------------------------- */
 
@@ -416,7 +424,7 @@ h3.article-caption a:hover {
     margin-top: 60px;
 }
 
-h2.sec-header {
+#contact-sec h2 {
     margin-bottom: 10px;
     padding: 0;
 }
@@ -445,7 +453,7 @@ h2.sec-header {
 }
 
 /* tours section-------------------------- */
-.sec-container {
+#tours-container {
     width: 100%;
     margin: auto;
     max-width: 1400px;
@@ -457,7 +465,9 @@ h2.sec-header {
     row-gap: 64px;
 }
 
-
+.tour-image-size {
+    height: 350px;
+}
 
 
 /* 
