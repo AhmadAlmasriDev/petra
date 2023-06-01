@@ -473,13 +473,42 @@ header.flex-container {
 
 #footer-sec {
     background-color: #ede5d4;
-    height: 250px;
+    height: 200px;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    /* padding-top: 40px; */
 }
 
+div.footer-container {
+    flex-direction: column;
+
+    width: 60%;
+}
+
+.social-networks {
+    /* font-family: Inter, sans-serif; */
+    font-size: 400%;
+    font-weight: 500;
+
+    padding: 0;
 
 
+}
 
+.social-networks li {
 
+    list-style-type: none;
+    padding: 20px 50px;
+    /* margin-left: 30px; */
+}
+
+.social-networks a:hover {
+    color: #a63a2e;
+}
+
+.footer-container p {
+    margin-top: ;
+}
 
 /* 
 .bg-image {
