@@ -460,7 +460,7 @@ header.flex-container {
     padding: 0 64px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     column-gap: 32px;
     row-gap: 64px;
 }
@@ -468,6 +468,17 @@ header.flex-container {
 .tour-image-size {
     height: 350px;
 }
+
+/* Footer--------------------------------- */
+
+#footer-sec {
+    background-color: #ede5d4;
+    height: 250px;
+}
+
+
+
+
 
 
 /* 
