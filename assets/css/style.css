@@ -26,7 +26,12 @@ color used:
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    position: relative;
     font-family: Inter, sans-serif;
     background-color: #ffffff;
     color: #39312d;
@@ -656,11 +661,14 @@ div.article-image-size {
 }
 
 /* article text--------------------------- */
+.text-container {
+    padding: 0 64px;
+}
 
 #article-text {
     margin: 64px auto;
     max-width: 846px;
-    padding: 0 64px;
+    /* padding: 0 64px; */
 }
 
 #article-text h3 {
@@ -699,7 +707,48 @@ div.article-image-size {
         border-radius: 25px;
         overflow: hidden; */
 }
+
+
+
+
+/* important scroll to top button */
+
+/* html {
+    scroll-behavior: smooth;
 }
+
+body {
+    position: relative;
+}
+
+.section {
+    height: 100vh;
+    background: #dedede;
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.scroll-container:before {
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.scroll-container a {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    font-size: 20px;
+} */
+
 
 
 
