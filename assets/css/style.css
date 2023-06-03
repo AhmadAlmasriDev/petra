@@ -588,8 +588,10 @@ div.footer-container {
 
 
 
+
 div.hero-article-image-size {
     margin: 0 auto;
+
 }
 
 #article-head-sec img {
@@ -606,7 +608,7 @@ div.hero-article-image-size {
 .hero-article-image-size {
     margin: 64px 0 128px 0;
     height: 600px;
-    max-width: 1600px;
+    max-width: 1470px;
 }
 
 
