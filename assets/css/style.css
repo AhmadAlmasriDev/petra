@@ -285,11 +285,37 @@ header.flex-container {
 
 }
 
+
+
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    padding: 0 64px;
+}
+
 #video-frame {
-    width: 1120px;
-    height: 630px;
-    /* width: 560px; 
-    height: 315px; */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
     margin: auto;
     display: block;
 
@@ -298,9 +324,13 @@ header.flex-container {
 }
 
 #video-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    /* video width="1120" height="630"  */
 }
 
 /* Photo gallery---------------------------- */
@@ -641,6 +671,29 @@ div.article-image-size {
     border-radius: 15px;
     padding: 32px;
 }
+
+
+/* ---------------------------RESPONSIVENESS--------------------------------- */
+
+/* 1400px--------------------------------- */
+
+
+
+@media screen and (max-width: 1120px) {
+    /* #video-frame {
+        width: 1120px;
+        height: 630px;
+
+        margin: auto;
+        display: block;
+
+        border-radius: 25px;
+        overflow: hidden; */
+}
+}
+
+
+
 
 /* 
 #hero-sec {
