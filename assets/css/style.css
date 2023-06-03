@@ -207,25 +207,34 @@ header.flex-container {
 #nav-menu li {
 
     list-style-type: none;
-    padding: 20px;
+    /* padding: 24px; */
     /* margin-left: 30px; */
 }
 
-#nav-menu a:hover {
-    color: #a63a2e;
+#nav-menu a {
+    padding: 24px;
 }
 
-.active {
+#nav-menu a:hover {
+    /* color: #a63a2e; */
+
     background-color: #c44536;
     padding: 12px 24px;
     border-radius: 50px;
     color: #ffffff;
 }
 
-#nav-menu a.active:hover {
+/* .active {
+    background-color: #c44536;
+    padding: 12px 24px;
+    border-radius: 50px;
+    color: #ffffff;
+} */
+
+/* #nav-menu a.active:hover {
     background-color: #a63a2e;
     color: #ffffff;
-}
+} */
 
 /* Hero section------------------------- */
 
