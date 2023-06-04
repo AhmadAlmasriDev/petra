@@ -380,11 +380,11 @@ header.flex-container {
     object-fit: cover;
 }
 
-@media only screen and (min-width: 758px) {
+/* @media only screen and (min-width: 758px) {
     .image-gallery {
         flex-direction: row;
     }
-}
+} */
 
 /* overlay styles--------------------------- */
 .image-item {
@@ -750,8 +750,6 @@ div.article-image-size {
 }
 
 
-
-
 div.hero-contact-image-size {
     margin: 0 auto;
 
@@ -761,15 +759,13 @@ div.hero-contact-image-size {
     transform: none;
 }
 
-
-
-
 .hero-contact-image-size {
     margin: 64px 0 128px 0;
     height: 600px;
     max-width: 1470px;
 }
 
+/* contact input-------------------------- */
 div.contact-info-block-container {
     align-items: flex-start;
 }
@@ -816,6 +812,7 @@ input.button {
     padding: 12px 24px;
 }
 
+/* info block----------------------------- */
 .contact-info-block {
     max-width: 415px;
     margin-right: 64px;
@@ -834,31 +831,122 @@ input.button {
 
 /* ---------------------------RESPONSIVENESS--------------------------------- */
 
-/* 1400px--------------------------------- */
-
-
 
 @media screen and (max-width: 992px) {
-    /* #video-frame {
-        width: 1120px;
-        height: 630px;
 
-        margin: auto;
-        display: block;
+    /* all page----------------------------- */
+    .sec-header {
+        padding-left: 32px;
+    }
 
-        border-radius: 25px;
-        overflow: hidden; */
+
+    /* hero sec----------------------------- */
+    #hero-sec>div {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 32px;
+    }
+
+    .hero-cover-text {
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 128px;
+        text-align: center;
+    }
+
+    .image-container {
+        width: 100%;
+
+    }
+
+    .hero-cover-text h1 {
+        font-size: 43px;
+    }
+
+    /* about sec----------------------------- */
+    #articles-container {
+        padding: 0 32px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+
+    /* tours sec----------------------------- */
+    #tours-container {
+
+        padding: 0 32px;
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    /* gallery sec--------------------------- */
+    .video-container {
+        padding: 0 32px;
+    }
+
+    .gallery-container {
+
+        padding: 100px 32px 0 32px;
+    }
+
+    /* footer-------------------------------- */
+    .social-networks {
+
+        font-size: 300%;
+
+    }
+
 }
 
-@media screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+
+    /* header--------------------------------- */
+    #nav-container {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #nav-container nav {
+        margin: 0;
 
 
 
 
+    }
 
-/* important scroll to top button */
 
-/* html {
+    /* the photo gallery--------------------------- */
+    @media only screen and (min-width: 768px) {
+        .image-gallery {
+            flex-direction: row;
+        }
+
+
+
+        /* <section id="hero-sec" class="main-container">
+            <div class="sec-container flex-container">
+                <div class="hero-cover-text">
+                    <h1>The lost ancient desert city</h1>
+                    <p>The city of Petra, capital of the Nabataean Arabs, is one of the most famous archaeological sites
+                        in the world, it is Located 240 km south of the capital Amman and 120 km north of the red sea
+                        town of Aqaba, Petra the world wonder, is undoubtedly Jordan's most valuable treasure and
+                        greatest tourist attraction, and it is visited by tourists from all over the world.</p>
+                    <a href="article-03.html" class="button">more info</a>
+                </div>
+                <a href="article-03.html" class="image-container">
+                    <div></div>
+                </a>
+            </div>
+        </section> */
+
+
+        /* important scroll to top button */
+
+        /* html {
     scroll-behavior: smooth;
 }
 
@@ -898,7 +986,7 @@ body {
 
 
 
-/* 
+        /* 
 #hero-sec {
     background-color: #ede5d4;
 
