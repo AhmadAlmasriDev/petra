@@ -158,7 +158,7 @@ header {
     position: relative;
     z-index: 1000;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
     background-color: #ffffff;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 8px 0 rgba(57, 49, 45, 0.08);
@@ -166,7 +166,8 @@ header {
 
 /* reset the header padding---------------- */
 header.flex-container {
-    padding: 0;
+    padding: 22px 0;
+    /* padding: 0; */
 
 }
 
@@ -901,7 +902,7 @@ input.button {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     /* header--------------------------------- */
     #nav-container {
@@ -918,16 +919,67 @@ input.button {
 
     }
 
+    header.flex-container {
+        padding: 32px 0;
+        /* padding: 0; */
+    }
 
-    /* the photo gallery--------------------------- */
-    @media only screen and (min-width: 768px) {
-        .image-gallery {
-            flex-direction: row;
-        }
+    #nav-menu {
+        margin-top: 20px;
+        font-size: 100%;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav-menu a {
+        padding: 15px;
+    }
+
+    header.flex-container {
+        padding: 22px 0 28px 0;
+
+
+    }
+
+    #nav-menu a:hover {
+
+        padding: 8px 15px;
+
+    }
 
 
 
-        /* <section id="hero-sec" class="main-container">
+    .social-networks {
+
+        font-size: 300%;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    .social-networks li {
+
+        padding: 20px 30px;
+
+    }
+
+}
+
+/* @media only screen and (max-width: 768px) {
+        .social-networks li {
+            list-style-type: none;
+            padding: 20px 50px;
+    } */
+
+/* the photo gallery--------------------------- */
+@media only screen and (min-width: 768px) {
+    .image-gallery {
+        flex-direction: row;
+    }
+
+
+
+    /* <section id="hero-sec" class="main-container">
             <div class="sec-container flex-container">
                 <div class="hero-cover-text">
                     <h1>The lost ancient desert city</h1>
@@ -944,9 +996,9 @@ input.button {
         </section> */
 
 
-        /* important scroll to top button */
+    /* important scroll to top button */
 
-        /* html {
+    /* html {
     scroll-behavior: smooth;
 }
 
@@ -986,7 +1038,7 @@ body {
 
 
 
-        /* 
+    /* 
 #hero-sec {
     background-color: #ede5d4;
 
