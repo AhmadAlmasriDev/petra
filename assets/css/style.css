@@ -963,13 +963,26 @@ input.button {
 
     }
 
+    #footer-sec p {
+        font-size: 14px;
+    }
+
+    div.footer-container {
+
+        width: 100%;
+    }
+
 }
 
-/* @media only screen and (max-width: 768px) {
-        .social-networks li {
-            list-style-type: none;
-            padding: 20px 50px;
-    } */
+@media screen and (max-width: 480px){
+    
+}
+
+
+
+
+
+
 
 /* the photo gallery--------------------------- */
 @media only screen and (min-width: 768px) {
