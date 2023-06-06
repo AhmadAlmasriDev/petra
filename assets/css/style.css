@@ -870,7 +870,7 @@ input.button {
     }
 
 
-    /* hero sec----------------------------- */
+    /* index hero sec----------------------------- */
     #hero-sec>div {
         flex-direction: column;
         justify-content: center;
@@ -893,7 +893,7 @@ input.button {
         font-size: 43px;
     }
 
-    /* about sec----------------------------- */
+    /* index about sec----------------------------- */
     #articles-container {
         padding: 0 32px;
         grid-template-columns: repeat(1, 1fr);
@@ -901,7 +901,7 @@ input.button {
 
     }
 
-    /* tours sec----------------------------- */
+    /* index tours sec----------------------------- */
     #tours-container {
 
         padding: 0 32px;
@@ -911,7 +911,7 @@ input.button {
 
     }
 
-    /* gallery sec--------------------------- */
+    /* index gallery sec--------------------------- */
     .video-container {
         padding: 0 32px;
     }
@@ -921,11 +921,21 @@ input.button {
         padding: 100px 32px 0 32px;
     }
 
-    /* footer-------------------------------- */
+    /* index footer-------------------------------- */
     .social-networks {
 
         font-size: 300%;
 
+    }
+
+    /* ---------------------------------------------------------------------- */
+    /* article hero sec-------------------------------- */
+    .article-header h1 {
+        font-size: 43px;
+    }
+
+    .hero-article-image-container {
+        padding: 0 32px;
     }
 
 }
@@ -933,7 +943,7 @@ input.button {
 
 @media screen and (max-width: 768px) {
 
-    /* header--------------------------------- */
+    /* index header--------------------------------- */
     #nav-container {
         justify-content: center;
         align-items: center;
@@ -1053,6 +1063,43 @@ input.button {
         padding: 0;
     }
 
+    /* ---------------------------------------------------------------------- */
+    /* article header------------------------------------ */
+    .article-header>h1 {
+        font-size: 30px;
+        padding: 32px 0 32px 0;
+    }
+
+    /* article hero------------------------------------ */
+
+    div.base-image-container {
+        height: 420px;
+    }
+
+    /* article text------------------------------------ */
+    #article-text h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    #article-text h3 {
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 5px;
+    }
+
+    .text-container {
+        padding: 0 32px;
+    }
+
+    #article-text {
+        margin: 32px auto;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -1061,7 +1108,10 @@ input.button {
 
 
 
-/* the photo gallery--------------------------- */
+
+
+
+/* index photo gallery--------------------------- */
 @media only screen and (min-width: 768px) {
     .image-gallery {
         flex-direction: row;
