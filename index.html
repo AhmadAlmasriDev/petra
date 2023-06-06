@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- ------------------------------------ -->
+    <!-- header------------------------------------ -->
     <header class="flex-container">
         <div id="nav-container" class="flex-container sec-container">
             <a href="index.html">
@@ -45,10 +45,10 @@
             <div>
     </header>
 
-    <!-- ------------------------------------ -->
+    <!-- main------------------------------------ -->
     <main>
 
-        <!-- ------------------------------------ -->
+        <!-- hero section------------------------------------ -->
         <section id="hero-sec" class="main-container">
             <div class="sec-container flex-container">
                 <div class="hero-cover-text">
@@ -60,30 +60,32 @@
                     <a href="article-03.html" class="button">more info</a>
                 </div>
                 <a href="article-03.html" class="image-container">
-                    <div></div>
+                    <div aria-label="Image of the treasury at night. Petra Jordan" role="img"></div>
                 </a>
             </div>
         </section>
 
-        <!-- ------------------------------------ -->
+        <!-- gallery section video and photo------------------------------------ -->
         <section id="gallery-sec" class="main-container">
             <div id="gallery-sec-container" class="sec-container">
                 <h2 class="sec-header">gallery</h2>
                 <div class="video-container">
                     <div id="video-frame">
-                        <iframe src="https://www.youtube.com/embed/xSiv4TkfSOE" title="YouTube video player"
-                            frameborder="0"
+                        <iframe aria-label="virtual tour in Petra Jordan"
+                            src="https://www.youtube.com/embed/xSiv4TkfSOE" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                         <!-- <iframe src="https://www.youtube.com/embed/ezDiSkOU0wc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
                 </div>
-                <!-- <hr>    -->
+                <!-- the links open in a new page-------------- -->
                 <div id="photo-gallery" class="gallery-container">
                     <div class="image-gallery">
+                        <!-- devided into 3 columns, in each column 2 photos ----------->
 
                         <div class="column">
                             <div class="image-item">
+                                <!-- portrait image orientation ---------- -->
                                 <a href="photo-01.html">
                                     <img src="assets/image/gallery-image-big-01.jpg"
                                         alt="a photo of the treasury Petra Jordan, photo taken from the passage to the city.">
@@ -96,6 +98,7 @@
                                 </a>
                             </div>
                             <div class="image-item">
+                                <!-- landscape image orientation ---------- -->
                                 <a href="photo-02.html">
                                     <img src="assets/image/gallery-image-big-04.jpg"
                                         alt="a photo of the Monastery. Petra Jordan.">
@@ -112,6 +115,7 @@
                         </div>
                         <div class="column">
                             <div class="image-item">
+                                <!-- landscape image orientation ---------- -->
                                 <a href="photo-03.html">
                                     <img src="assets/image/gallery-image-big-05.jpg"
                                         alt="a photo of the treasury Petra Jordan. frontal facade view.">
@@ -124,6 +128,7 @@
                                 </a>
                             </div>
                             <div class="image-item">
+                                <!-- portrait image orientation ---------- -->
                                 <a href="photo-04.html">
                                     <img src="assets/image/gallery-image-big-02.jpg"
                                         alt="a photo of the (siq), the only entranceto the city. Petra Jordan.">
@@ -139,6 +144,7 @@
                         </div>
                         <div class="column">
                             <div class="image-item">
+                                <!-- portrait image orientation ---------- -->
                                 <a href="photo-05.html">
                                     <img src="assets/image/gallery-image-big-03.jpg"
                                         alt="a photo of the royal tombs Petra Jordan.">
@@ -151,6 +157,7 @@
                                 </a>
                             </div>
                             <div class="image-item">
+                                <!-- landscape image orientation ---------- -->
                                 <a href="photo-06.html">
                                     <img src="assets/image/gallery-image-big-06.jpg"
                                         alt="a photo of the high temple Petra Jordan.">
@@ -174,18 +181,18 @@
             </div>
         </section>
 
-        <!-- ------------------------------------ -->
+        <!-- about section------------------------------------ -->
         <hr>
         <section id="about-sec" class="main-container">
             <div id="about-container" class="sec-container">
                 <h2 class="sec-header">about</h2>
                 <div id="articles-container">
-
+                    <!-- grid is used for the articles----------- -->
                     <div>
                         <div class="about-image-size base-image-container">
                             <a href="article-01.html">
                                 <img src="assets/image/article-01-hero-image-small.jpg"
-                                    alt="a photo of wadi musa. Jordan">
+                                    alt="a photo of wadi musa at night. Jordan">
                             </a>
                         </div>
                         <h3 class="base-image-caption"><a href="article-01.html">Wadi Musa</a></h3>
@@ -203,10 +210,10 @@
                         <div class="about-image-size base-image-container">
                             <a href="article-03.html">
                                 <img src="assets/image/article-03-hero-image-small.jpg"
-                                    alt="a photo of the treasury at night, lighted by candels. Petra Jordan">
+                                    alt="a photo of the treasury at night. Petra Jordan">
                             </a>
                         </div>
-                        <h3 class="base-image-caption"><a href="article-03.html">The lost ancient desert city1</a></h3>
+                        <h3 class="base-image-caption"><a href="article-03.html">The lost ancient desert city</a></h3>
                     </div>
                     <div>
                         <div class="about-image-size base-image-container">
@@ -220,8 +227,9 @@
                 </div>
             </div>
         </section>
-        <!-- ------------------------------------ -->
-        <section id="contact-sec" class="main-container contact-image-overlay">
+        <!-- contact section on home page is a just a link to the contact page---------- -->
+        <section aria-label="an aerial image of the treasury. Petra Jordan." role="img" id="contact-sec"
+            class="main-container contact-image-overlay">
             <div class="contact-container flex-container">
                 <div>
                     <h2 class="sec-header">need help?</h2>
@@ -231,7 +239,7 @@
             </div>
 
         </section>
-        <!-- ------------------------------------ -->
+        <!-- tours section every element is a link to outside link opens in a new window------------ -->
         <section id="tours-sec" class="main-container">
             <div id="tours-sec-container" class="sec-container">
                 <h2 class="sec-header">tours</h2>
@@ -240,7 +248,7 @@
                         <div class="tour-image-size base-image-container">
                             <a href="https://www.tripadvisor.com/AttractionProductReview-g293986-d11764099-2_Day_Tour_Petra_Wadi_Rum_and_Dead_Sea_from_Amman-Amman_Amman_Governorate.html"
                                 target="_blank">
-                                <img src="assets/image/tour-image-01.jpg" alt="an arial photo of the dead sea Jordan">
+                                <img src="assets/image/tour-image-01.jpg" alt="an aerial photo of the dead sea Jordan">
                             </a>
                         </div>
                         <h3 class="base-image-caption"><a
@@ -274,45 +282,14 @@
                                 3 Hours Inside Petra Tour: Treasury from the
                                 Top Off the Beaten Track</a></h3>
                     </div>
-                    <!-- <div>
-                        <div class="tour-image-size base-image-container">
-                            <a href="https://www.tripadvisor.com/AttractionProductReview-g293986-d11467867-3_Day_Private_Tour_from_Amman_Petra_Wadi_Rum_Dana_Aqaba_and_Dead_Sea-Amman_Amman_G.html"
-                                target="_blank">
-                                <img src="assets/image/hero-image.jpg"
-                                    alt="a photo of the treasury at night, lighted by candels. Petra Jordan">
-                            </a>
-                        </div>
-                        <h3 class="base-image-caption"><a href="#">3-Day Private Tour from Amman: Petra, Wadi Rum, Dana,
-                                Aqaba, and Dead Sea</a></h3>
-                    </div>
-                    <div>
-                        <div class="tour-image-size base-image-container">
-                            <a href="https://www.tripadvisor.com/AttractionProductReview-g298101-d15853953-Petra_Wadi_Rum_One_day_tour-Aqaba_Al_Aqabah_Governorate.html"
-                                target="_blank">
-                                <img src="assets/image/hero-image.jpg"
-                                    alt="a photo of the treasury at night, lighted by candels. Petra Jordan">
-                            </a>
-                        </div>
-                        <h3 class="base-image-caption"><a href="#">Petra & Wadi Rum - One day tour</a></h3>
-                    </div>
-                    <div>
-                        <div class="tour-image-size base-image-container">
-                            <a href="https://www.tripadvisor.com/AttractionProductReview-g318895-d23842368-3_hour_Private_Guided_Tour_In_Petra_with_hotel_pick_up-Petra_Wadi_Musa_Ma_an_Gover.html"
-                                target="_blank">
-                                <img src="assets/image/hero-image.jpg"
-                                    alt="a photo of the treasury at night, lighted by candels. Petra Jordan">
-                            </a>
-                        </div>
-                        <h3 class="base-image-caption"><a href="#">3-hour Private Guided Tour In Petra with hotel pick
-                                up.</a></h3>
-                    </div> -->
+
                 </div>
         </section>
         <div class="scroll-container">
             <a href="#top" class="button">To Top</a>
         </div>
     </main>
-    <!-- ------------------------------------ -->
+    <!-- footer------------------------------------ -->
     <footer id="footer-sec" class="flex-container">
 
         <!-- <a href="index.html">logo</a> -->
