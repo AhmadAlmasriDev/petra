@@ -966,6 +966,21 @@ input.button {
         padding: 0 32px;
     }
 
+    /* ---------------------------------------------------------------------- */
+    /* contact header-------------------------------- */
+    .contact-header-container h1 {
+        font-size: 43px;
+        padding: 32px 0 16px 0
+    }
+
+    div.contact-info-block-container {
+        flex-direction: column;
+    }
+
+    div.input-container {
+        margin-top: 16px;
+    }
+
 
 
 }
@@ -1039,6 +1054,24 @@ input.button {
     div.footer-container {
 
         width: 100%;
+    }
+
+    /* ---------------------------------------------------------------------- */
+    /* contact-------------------------------------- */
+    .hero-contact-image-container div.hero-contact-image-size {
+        height: 350px;
+    }
+
+    section.form-sec {
+        padding: 32px;
+    }
+
+    div.hero-contact-image-container {
+        padding: 0 32px;
+    }
+
+    div.contact-header {
+        padding: 0 32px;
     }
 
 }
@@ -1158,6 +1191,20 @@ input.button {
     a.button {
         font-size: 100%;
     }
+
+    /* ---------------------------------------------------------------------- */
+    /* contact-------------------------------------- */
+    .contact-header-container h1 {
+        font-size: 30px;
+        /* padding: 32px 0 16px 0; */
+    }
+
+    .contact-info-block h2 {
+        font-size: 26px;
+        /* padding: 32px 0 16px 0; */
+    }
+
+
 }
 
 
