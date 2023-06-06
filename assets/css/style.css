@@ -922,6 +922,8 @@ input.button {
 
     }
 
+
+
     /* index tours sec----------------------------- */
     #tours-container {
 
@@ -1097,6 +1099,10 @@ input.button {
 
     .image-container {
         height: 370px;
+    }
+
+    #tours-container {
+        row-gap: 32px;
     }
 
     /* ---------------------------------------------------------------------- */
