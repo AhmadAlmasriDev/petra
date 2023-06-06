@@ -830,6 +830,35 @@ input.button {
 }
 
 
+/* ---------------------------SCROLL BUTTON---------------------------------- */
+
+.scroll-container {
+    position: absolute;
+    top: 0;
+    right: 3vh;
+    height: 100%;
+}
+
+
+
+
+.scroll-container:before {
+    content: '';
+    display: block;
+    height: 105vh;
+    pointer-events: none;
+}
+
+.scroll-container a {
+    /* background-color: #ede5d4; */
+    position: sticky;
+    top: 90vh;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.scroll-container a:hover {}
+
 /* ---------------------------RESPONSIVENESS--------------------------------- */
 
 
@@ -1040,21 +1069,7 @@ input.button {
 
 
 
-    /* <section id="hero-sec" class="main-container">
-            <div class="sec-container flex-container">
-                <div class="hero-cover-text">
-                    <h1>The lost ancient desert city</h1>
-                    <p>The city of Petra, capital of the Nabataean Arabs, is one of the most famous archaeological sites
-                        in the world, it is Located 240 km south of the capital Amman and 120 km north of the red sea
-                        town of Aqaba, Petra the world wonder, is undoubtedly Jordan's most valuable treasure and
-                        greatest tourist attraction, and it is visited by tourists from all over the world.</p>
-                    <a href="article-03.html" class="button">more info</a>
-                </div>
-                <a href="article-03.html" class="image-container">
-                    <div></div>
-                </a>
-            </div>
-        </section> */
+
 
 
     /* important scroll to top button */
