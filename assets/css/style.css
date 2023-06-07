@@ -463,6 +463,10 @@ div.footer-container {
     color: #a63a2e;
 }
 
+.footer-container p {
+    text-align: center;
+}
+
 /* ------------------------------PHOTO PAGE---------------------------------- */
 
 #photo-sec {
@@ -972,10 +976,18 @@ input.button {
         font-size: 16px;
     }
 
+    div.footer-container {
+        padding: 0;
+    }
+
     .social-networks {
         font-size: 200%;
         font-weight: 500;
         padding: 0;
+    }
+
+    .social-networks li {
+        padding: 20px 20px;
     }
 
     #hero-sec {
