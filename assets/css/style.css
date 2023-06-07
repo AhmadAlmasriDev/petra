@@ -219,7 +219,7 @@ header.flex-container {
 
 .image-container>div {
     height: 100%;
-    background: url("../image/hero-image.jpg") no-repeat center center / cover;
+    background: url("../image/hero-image.webp") no-repeat center center / cover;
     transition: .5s ease;
 }
 
@@ -380,7 +380,7 @@ header.flex-container {
 /* Contact section-------------------------- */
 #contact-sec {
     height: 400px;
-    background-image: url("../image/contact-background-image.jpg");
+    background-image: url("../image/contact-background-image.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
