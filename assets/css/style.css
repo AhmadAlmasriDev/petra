@@ -279,8 +279,9 @@ header.flex-container {
 
 /* Hero cover text------------------------- */
 .hero-cover-text {
+    padding-right: 32px;
     width: 100%;
-    max-width: 550px;
+    max-width: 580px;
 }
 
 .hero-cover-text p {
@@ -899,6 +900,7 @@ input.button {
     }
 
     .hero-cover-text {
+        padding-right: 0;
         max-width: 600px;
         margin: 0 auto;
         margin-bottom: 128px;
@@ -1126,8 +1128,20 @@ input.button {
         padding: 0;
     }
 
+    #hero-sec {
+        padding: 32px 0;
+    }
+
+    #hero-sec div.sec-container {
+        flex-direction: column-reverse;
+    }
+
     .hero-cover-text {
-        margin-bottom: 64px;
+        margin-bottom: 32px;
+    }
+
+    .hero-cover-text h1 {
+        padding-top: 16px;
     }
 
     .image-container {
