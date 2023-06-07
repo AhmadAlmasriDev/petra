@@ -1,23 +1,19 @@
 /* Fonts used Fraunces and inter */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@400;500&display=swap');
 
-
 /* 
 color used:
     backgrounds:
         off white #ede5d4
         white #ffffff
         orange #c44536
-        dark orange: #a63a2e
+        dark orange #a63a2e
+        black #000000
     text:
         dark brown #39312d
     border:
         gray #e0e0e0
-
-
 */
-
-
 
 * {
     margin: 0;
@@ -52,13 +48,11 @@ main h1,
 main h2,
 main h3 {
     font-weight: 600;
-
 }
 
 main h1 {
     font-size: 55px;
     margin-bottom: 18px;
-    /* letter-spacing:-3px; */
 }
 
 main h2 {
@@ -93,14 +87,11 @@ hr {
     padding: 12px 24px;
     border-radius: 50px;
     color: #ffffff;
-    /* position: absolute; */
-    /* transition: .5s ease; */
 }
 
 .button:hover {
     background-color: #a63a2e;
     color: #ffffff;
-    /* transform: translateY(-5px); */
 }
 
 .main-container {
@@ -112,7 +103,6 @@ hr {
     width: 100%;
     max-width: 1600px;
     margin: auto;
-
 }
 
 .flex-container {
@@ -125,7 +115,6 @@ hr {
 /* base image container */
 .base-image-container {
     width: 100%;
-
     border-radius: 15px;
     overflow: hidden;
 }
@@ -139,7 +128,6 @@ hr {
 
 .base-image-container img:hover {
     transform: scale(1.1);
-    /* cursor: pointer; */
 }
 
 .base-image-caption {
@@ -158,7 +146,6 @@ header {
     position: relative;
     z-index: 1000;
     width: 100%;
-    /* height: 100px; */
     background-color: #ffffff;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 8px 0 rgba(57, 49, 45, 0.08);
@@ -167,8 +154,6 @@ header {
 /* reset the header padding---------------- */
 header.flex-container {
     padding: 22px 0;
-    /* padding: 0; */
-
 }
 
 #nav-container {
@@ -179,7 +164,6 @@ header.flex-container {
 #logo {
     color: #39312d;
     line-height: 80%;
-
     text-transform: uppercase;
     font-size: 250%;
 }
@@ -187,7 +171,6 @@ header.flex-container {
 #nav-container p {
     line-height: 130%;
     text-align: center;
-    /* padding-left:5px; */
     color: #ffffff;
     background-color: #c44536;
     margin-bottom: 0;
@@ -196,25 +179,17 @@ header.flex-container {
 /* navigation menu------------------------- */
 #nav-container nav {
     margin-left: auto;
-
 }
 
 #nav-menu {
     font-family: Inter, sans-serif;
     font-size: 120%;
     font-weight: 500;
-    /* align-items:center;
-    justify-content: space-between; */
     padding: 0;
-
-
 }
 
 #nav-menu li {
-
     list-style-type: none;
-    /* padding: 24px; */
-    /* margin-left: 30px; */
 }
 
 #nav-menu a {
@@ -222,52 +197,28 @@ header.flex-container {
 }
 
 #nav-menu a:hover {
-    /* color: #a63a2e; */
-
     background-color: #c44536;
     padding: 12px 24px;
     border-radius: 50px;
     color: #ffffff;
 }
 
-/* .active {
-    background-color: #c44536;
-    padding: 12px 24px;
-    border-radius: 50px;
-    color: #ffffff;
-} */
-
-/* #nav-menu a.active:hover {
-    background-color: #a63a2e;
-    color: #ffffff;
-} */
-
 /* Hero section------------------------- */
-
 #hero-sec {
     background-color: #ede5d4;
-
-
-    /* z-index: 0; */
-    /* overflow: hidden; */
-
 }
 
 /* Hero image------------------------- */
-
 .image-container {
     height: 600px;
     width: 650px;
     border-radius: 25px;
     overflow: hidden;
-    /* position: relative; */
     margin-left: auto;
-
 }
 
 .image-container>div {
     height: 100%;
-    /* width: 650px; */
     background: url("../image/hero-image.jpg") no-repeat center center / cover;
     transition: .5s ease;
 }
@@ -286,33 +237,24 @@ header.flex-container {
 
 .hero-cover-text p {
     margin-bottom: 48px;
-
 }
 
 /* Gallery section------------------------- */
-
-#gallery-sec {}
-
 .sec-header {
     padding-left: 64px;
     text-transform: capitalize;
     margin-bottom: 48px;
-
-
 }
-
-
-
 
 .container {
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    /* 16:9 Aspect Ratio -------------------- */
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
+/*fit in the container div with full height and width */
 .responsive-iframe {
     position: absolute;
     top: 0;
@@ -334,7 +276,6 @@ header.flex-container {
     padding-top: 56.25%;
     margin: auto;
     display: block;
-
     border-radius: 25px;
     overflow: hidden;
 }
@@ -349,10 +290,8 @@ header.flex-container {
     height: 100%;
 }
 
-/* Photo gallery---------------------------- */
-
+/* photo gallery---------------------------- */
 .gallery-container {
-
     display: block;
     margin: auto;
     width: 100%;
@@ -360,10 +299,8 @@ header.flex-container {
     padding: 100px 64px 0 64px;
 }
 
-
-/* Responsive--------------------------- */
+/* galleryesponsiveness--------------------------- */
 .image-gallery {
-    /* Mobile first------------------------- */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -382,13 +319,7 @@ header.flex-container {
     object-fit: cover;
 }
 
-/* @media only screen and (min-width: 758px) {
-    .image-gallery {
-        flex-direction: row;
-    }
-} */
-
-/* overlay styles--------------------------- */
+/* gallery overlay styles--------------------------- */
 .image-item {
     position: relative;
     cursor: pointer;
@@ -399,7 +330,6 @@ header.flex-container {
     width: 100%;
     height: 100%;
     background: rgba(57, 57, 57, 0.502);
-    /* background: rgba(57, 57, 57, 0.502); */
     top: 0;
     left: 0;
     transform: scale(0);
@@ -417,7 +347,6 @@ header.flex-container {
     font-size: 26px;
     line-height: 30px;
     margin-bottom: 6px;
-
 }
 
 .overlay p {
@@ -431,9 +360,7 @@ header.flex-container {
     transform: scale(1);
 }
 
-/* about section---------------------------- */
-
-
+/* About section---------------------------- */
 #articles-container {
     width: 100%;
     margin: auto;
@@ -446,25 +373,18 @@ header.flex-container {
     row-gap: 64px;
 }
 
-
 .about-image-size {
-
     height: 350px;
-
 }
 
-
-/* contact section-------------------------- */
-
+/* Contact section-------------------------- */
 #contact-sec {
     height: 400px;
-    /* position: relative; */
     background-image: url("../image/contact-background-image.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-color: red; */
 }
 
 .contact-container {
@@ -497,10 +417,9 @@ header.flex-container {
     z-index: 0;
     width: 100%;
     background: #00000090;
-    /* background: rgba(239, 186, 108, 0.4); */
 }
 
-/* tours section-------------------------- */
+/* Tours section-------------------------- */
 #tours-container {
     width: 100%;
     margin: auto;
@@ -518,49 +437,36 @@ header.flex-container {
 }
 
 /* Footer--------------------------------- */
-
 #footer-sec {
     background-color: #ede5d4;
     height: 200px;
     align-items: flex-end;
-    /* justify-content: space-between; */
-    /* padding-top: 40px; */
 }
 
 div.footer-container {
     flex-direction: column;
-
     width: 60%;
 }
 
 .social-networks {
-    /* font-family: Inter, sans-serif; */
     font-size: 400%;
     font-weight: 500;
-
     padding: 0;
-
-
 }
 
 .social-networks li {
-
     list-style-type: none;
     padding: 20px 50px;
-    /* margin-left: 30px; */
 }
 
 .social-networks a:hover {
     color: #a63a2e;
 }
 
-/* ------------------------------photo PAGE----------------------------------- */
+/* ------------------------------PHOTO PAGE---------------------------------- */
 
 #photo-sec {
-
-    /* background-color: #000000; */
     height: 100vh;
-
 }
 
 .gallery-background {
@@ -570,14 +476,12 @@ div.footer-container {
     right: 0;
     bottom: 0;
     left: 0;
-    /* bottom: auto; */
     overflow: hidden;
     background-color: #000000;
 }
 
 #photo-sec>div {
     flex-direction: column;
-    /* padding-top: 64px; */
 }
 
 #photo-sec div.sec-container {
@@ -601,7 +505,6 @@ div.footer-container {
 
 .photo-caption {
     text-align: center;
-    /* max-width: 450px; */
     color: #ffff;
     padding: 20px 0 30px 0;
     font-size: 24px;
@@ -617,13 +520,10 @@ div.footer-container {
 }
 
 .article-header>h1 {
-
     max-width: 700px;
     text-align: center;
     margin: 0 auto;
-
     padding: 128px 0 64px 0;
-
 }
 
 #article-head-sec {
@@ -651,18 +551,13 @@ div.footer-container {
     z-index: -1;
 }
 
-
-
-
 div.hero-article-image-size {
     margin: 0 auto;
-
 }
 
 #article-head-sec img {
     transform: none;
 }
-
 
 .article-image-size {
     margin: 64px 0 128px 0;
@@ -676,7 +571,6 @@ div.hero-article-image-size {
     max-width: 1470px;
 }
 
-
 div.article-image-size {
     margin: 48px 0;
 }
@@ -689,7 +583,6 @@ div.article-image-size {
 #article-text {
     margin: 64px auto;
     max-width: 846px;
-    /* padding: 0 64px; */
 }
 
 #article-text h3 {
@@ -710,11 +603,7 @@ div.article-image-size {
     padding: 32px;
 }
 
-
-
-
 /* ------------------------------CONTACT PAGE-------------------------------- */
-
 
 .form-sec {
     padding: 64px;
@@ -726,7 +615,6 @@ div.article-image-size {
 }
 
 .contact-header h1 {
-
     max-width: 700px;
     text-align: left;
     margin: 0;
@@ -770,10 +658,8 @@ div.article-image-size {
     z-index: -1;
 }
 
-
 div.hero-contact-image-size {
     margin: 0 auto;
-
 }
 
 #contact-head-sec img {
@@ -810,7 +696,6 @@ textarea:focus {
     border: 1px solid #39312d;
 }
 
-
 input.text-input {
     border-radius: 50px;
     font-size: 18px;
@@ -825,7 +710,6 @@ textarea.text-area {
     font-size: 18px;
     line-height: 1.9em;
     margin-bottom: 16px;
-
 }
 
 input.button {
@@ -849,20 +733,15 @@ input.button {
     color: #c44536;
 }
 
-
 /* ---------------------------SCROLL BUTTON---------------------------------- */
 
 .scroll-container {
     position: absolute;
     top: 0;
-
     z-index: 100;
     right: 3vh;
     height: 100%;
 }
-
-
-
 
 .scroll-container:before {
     content: '';
@@ -872,17 +751,15 @@ input.button {
 }
 
 .scroll-container a {
-    /* background-color: #ede5d4; */
     position: sticky;
     top: 90vh;
     cursor: pointer;
     font-size: 20px;
 }
 
-
-
 /* ---------------------------RESPONSIVENESS--------------------------------- */
 
+/* -------------------------------992px-------------------------------------- */
 
 @media screen and (max-width: 992px) {
 
@@ -890,7 +767,6 @@ input.button {
     .sec-header {
         padding-left: 32px;
     }
-
 
     /* index hero sec----------------------------- */
     #hero-sec>div {
@@ -921,19 +797,13 @@ input.button {
         padding: 0 32px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
-
     }
-
-
 
     /* index tours sec----------------------------- */
     #tours-container {
-
         padding: 0 32px;
-
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
-
     }
 
     /* index gallery sec--------------------------- */
@@ -942,18 +812,16 @@ input.button {
     }
 
     .gallery-container {
-
         padding: 100px 32px 0 32px;
     }
 
     /* index footer-------------------------------- */
     .social-networks {
-
         font-size: 300%;
-
     }
 
-    /* ---------------------------------------------------------------------- */
+    /* article page---------------------------------------------------------- */
+
     /* article hero sec-------------------------------- */
     .article-header h1 {
         font-size: 43px;
@@ -968,7 +836,8 @@ input.button {
         padding: 0 32px;
     }
 
-    /* ---------------------------------------------------------------------- */
+    /* contact page---------------------------------------------------------- */
+
     /* contact header-------------------------------- */
     .contact-header-container h1 {
         font-size: 43px;
@@ -982,11 +851,9 @@ input.button {
     div.input-container {
         margin-top: 16px;
     }
-
-
-
 }
 
+/* -----------------------------------768px---------------------------------- */
 
 @media screen and (max-width: 768px) {
 
@@ -999,21 +866,15 @@ input.button {
 
     #nav-container nav {
         margin: 0;
-
-
-
-
     }
 
     header.flex-container {
         padding: 32px 0;
-        /* padding: 0; */
     }
 
     #nav-menu {
         margin-top: 20px;
         font-size: 100%;
-        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
     }
@@ -1024,29 +885,20 @@ input.button {
 
     header.flex-container {
         padding: 22px 0 28px 0;
-
-
     }
 
     #nav-menu a:hover {
-
         padding: 8px 15px;
-
     }
 
-
-
     .social-networks {
-
         font-size: 300%;
         font-weight: 500;
         padding: 0;
     }
 
     .social-networks li {
-
         padding: 20px 30px;
-
     }
 
     #footer-sec p {
@@ -1054,11 +906,11 @@ input.button {
     }
 
     div.footer-container {
-
         width: 100%;
     }
 
-    /* ---------------------------------------------------------------------- */
+    /* contact page --------------------------------------------------------- */
+
     /* contact-------------------------------------- */
     .hero-contact-image-container div.hero-contact-image-size {
         height: 350px;
@@ -1078,6 +930,8 @@ input.button {
 
 }
 
+/* --------------------------------480px------------------------------------- */
+
 @media screen and (max-width: 480px) {
     #nav-menu {
         margin-top: 20px;
@@ -1092,16 +946,13 @@ input.button {
     }
 
     #nav-menu a:hover {
-
         background-color: #ffffff;
         padding: 0;
         border-radius: 0;
         color: #a63a2e;
     }
 
-
     .contact-container {
-
         padding: 0 32px;
     }
 
@@ -1122,7 +973,6 @@ input.button {
     }
 
     .social-networks {
-
         font-size: 200%;
         font-weight: 500;
         padding: 0;
@@ -1152,17 +1002,15 @@ input.button {
         row-gap: 32px;
     }
 
-    /* ---------------------------------------------------------------------- */
+    /* article page---------------------------------------------------------- */
+
     /* article header------------------------------------ */
     .article-header>h1 {
         font-size: 30px;
         padding: 32px 0 32px 0;
     }
 
-
-
     /* article hero------------------------------------ */
-
     div.base-image-container {
         height: 420px;
     }
@@ -1192,8 +1040,9 @@ input.button {
         margin-bottom: 10px;
     }
 
-    /* ---------------------------------------------------------------------- */
-    /* photo photo sec-------------------------------- */
+    /* phot page------------------------------------------------------------- */
+
+    /* photo sec-------------------------------- */
     #photo-sec {
         padding: 32px 0;
     }
@@ -1206,117 +1055,24 @@ input.button {
         font-size: 100%;
     }
 
-    /* ---------------------------------------------------------------------- */
-    /* contact-------------------------------------- */
+    /* contact page---------------------------------------------------------------------- */
+
+    /* contact header-------------------------------------- */
     .contact-header-container h1 {
         font-size: 30px;
-        /* padding: 32px 0 16px 0; */
     }
 
+    /* contact info block------------------------------------- */
     .contact-info-block h2 {
         font-size: 26px;
         /* padding: 32px 0 16px 0; */
     }
-
-
 }
 
+/* photo gallery only responsiveness--------------------------- */
 
-
-
-
-/* index photo gallery--------------------------- */
 @media only screen and (min-width: 768px) {
     .image-gallery {
         flex-direction: row;
     }
-
-
-
-
-
-
-    /* important scroll to top button */
-
-    /* html {
-    scroll-behavior: smooth;
 }
-
-body {
-    position: relative;
-}
-
-.section {
-    height: 100vh;
-    background: #dedede;
-    margin-bottom: 20px;
-    font-size: 100px;
-}
-
-.scroll-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-}
-
-.scroll-container:before {
-    content: '';
-    display: block;
-    height: 100vh;
-    pointer-events: none;
-}
-
-.scroll-container a {
-    position: sticky;
-    top: 88vh;
-    cursor: pointer;
-    font-size: 20px;
-} */
-
-
-
-
-
-    /* 
-#hero-sec {
-    background-color: #ede5d4;
-
-
-
-}
-
-
-
-.image-container {
-    height: 600px;
-    width: 650px;
-    border-radius: 25px;
-    overflow: hidden;
-    
-    margin-left: auto;
-
-}
-
-.image-container>div {
-    height: 100%;
-   
-    background: url("../image/hero-image.jpg") no-repeat center center / cover;
-    transition: .5s ease;
-}
-
-.image-container>div:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-
-.hero-cover-text {
-    width: 100%;
-    max-width: 550px;
-}
-
-.hero-cover-text p {
-    margin-bottom: 48px;
-
-} */
