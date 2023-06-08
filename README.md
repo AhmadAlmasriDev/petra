@@ -76,7 +76,9 @@ Key information for the site
 <br>
 
 ### **Colour Scheme**
+
 ![the site color palette](documentation/palette.jpg)
+
 The website uses a palette of earth sand colours that can be seen in the rocky mountains in Petra, The colour palette was created using the Coolors website.
 
 ### **Typography**
@@ -96,21 +98,21 @@ The images used are royality free images downloaded from two photobanks, I have 
 
 Wireframes were created with Balsamiq Wireframes program.
 
-<details open>
+<details close>
 <summary>Home Page Wireframe </summary>
 
 ![Home Page Wireframe Image](documentation/wireframe-index.jpg)
 
 </details>
 
-<details open>
+<details close>
 <summary>Contact Page Wireframe </summary>
 
 ![Contact Page Wireframe Image](documentation/wireframe-contact.jpg)
 
 </details>
 
-<details open>
+<details close>
 <summary>Photo Page Wireframe </summary>
 
 ![Photo Page Wireframe Image](documentation/wireframe-article.jpg)
@@ -120,7 +122,8 @@ Wireframes were created with Balsamiq Wireframes program.
 
 ### **Features**
 
-The website is a single page design with five sections and two seperate pages (article and photo pages), four of which are accessible from the navigation menu (home, gallery, about, tours & contact pages). The fifth page is a contact form page which is shown once a user clicks the contact navigation button or through contact us button at the end of the home page. The two other pages are accessible once the user clicks a photo from the gallery or an article from the about sections.
+The website is a single page design with five sections, four of which are accessible from the navigation menu (home, gallery, about, tours & contact pages). The fifth page is a contact form page which is shown once a user clicks the contact navigation button or through contact us button at the end of the home page.
+And also has two seperate pages (article and photo pages) these pages are accessible once the user clicks a photo from the gallery or an article from the about sections.
 
 - All Pages on the website have:
 
