@@ -343,32 +343,33 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ---
 ## Technologies Used
-
+<br/>
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+- HTML
+- CSS
 
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq- Used to create wireframes.
+- Balsamiq- Used to create wireframes.
 
-Git - For version control.
+- Git - For version control.
 
-Github - To save and store the files for the website.
+- Github - To save and store the files for the website.
 
-Google Fonts - To import the fonts used on the website.
+- Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the iconography on the website.
+- Font Awesome - For the iconography on the website.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[online-convert](https://www.online-convert.com) To change to webp format.
+- [online-convert](https://www.online-convert.com) To change to webp format.
 
-[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+- [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 
-
+---
 ## Deployment & Local Development
 
 ### Deployment
@@ -402,33 +403,52 @@ To clone the petra repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-
+---
 ## Testing
+<br>
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+Please view [Testing.md](testing.md) for the testing documentation.
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
-
+---
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
+<br/>
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+- Image zoom hover is similer to the zoom effect in the love running tuturial by [code institute](https://codeinstitute.net)
+
+- [The responsive flexbox gallery](https://blog.logrocket.com/responsive-image-gallery-css-flexbox)
+
+- [Css flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+
+- [Css grid](https://css-tricks.com/snippets/css/complete-guide-grid)
+
+- [Go to top button](https://levelup.gitconnected.com/animated-page-scroll-with-html-and-css-only-3788c4e2b853)
+- 
+- [Responsive iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+
+
+- Design and colors was inspired by these two websites:
+  
+  - [Trips](https://preview.colorlib.com/theme/trips)
+  - [Vacation](https://vacationtemplate.webflow.io)
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+- [The lost city article](https://youwannatravel.com/en/41-curiosity/58-petra-the-lost-city)
+- [Facts about Petra article](https://www.traveltalktours.com/13-exciting-facts-petra-jordan)
+- [Wadi Musa article](https://www.touristjordan.com/wadi-musa)
+- [Wadi Rum article](https://whc.unesco.org/en/list/1377)
+
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+- [AirPanoVR video](https://www.youtube.com/watch?v=xSiv4TkfSOE&t=301s&ab_channel=AirPanoVR)
+  
+- Photo bank:
+
+  - [Unsplash](https://unsplash.com)
+  - [Pexels](https://www.pexels.com)
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+A blueprint and an example for this README and testing files  was provided by [kera-cudmore](https://github.com/kera-cudmore) from [code institute](https://codeinstitute.net/)
