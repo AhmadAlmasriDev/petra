@@ -19,7 +19,6 @@ The Petra website is designed to be a responsive website allowing visitors to vi
     - [**Imagery**](#imagery)
     - [**Features**](#features)
     - [General features on each page](#general-features-on-each-page)
-    - [Future Implementations](#future-implementations)
     - [Accessibility](#accessibility)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
@@ -75,6 +74,9 @@ Key information for the site
 ## **Design**
 <br>
 
+The initial design was inspired by two websites templates online,
+I have credited these in the [credits](#credits) section.
+
 ### **Colour Scheme**
 
 ![the site color palette](documentation/palette.jpg)
@@ -87,16 +89,16 @@ Google Fonts was used for the following fonts:
 
 Fraunces is used for headings on the site.
 
-![Fraunces font](documentation/fraunces.jpg)
+![Fraunces font](documentation/font-fraunces.jpg)
 
 Inter is used for the body text on the site.
 
-![Inter font](documentation/inter.jpg)
+![Inter font](documentation/font-inter.jpg)
 
 ### **Imagery**
-The images used are royality free images downloaded from two photobanks, I have credited these in the [credits](#credits) section.
+The images used are royality free images downloaded from two photobanks, and the video is from Youtube. I have credited these in the [credits](#credits) section.
 
-Wireframes were created with Balsamiq Wireframes program.
+Wireframes were created with [Balsamiq](https://balsamiq.com) Wireframes program.
 
 <details close>
 <summary>Home Page Wireframe </summary>
@@ -124,76 +126,282 @@ Wireframes were created with Balsamiq Wireframes program.
 
 The website is a single page design with five sections, four of which are accessible from the navigation menu (home, gallery, about, tours & contact pages). The fifth page is a contact form page which is shown once a user clicks the contact navigation button or through contact us button at the end of the home page.
 And also has two seperate pages (article and photo pages) these pages are accessible once the user clicks a photo from the gallery or an article from the about sections.
+<details close>
+<summary>Index Page Preview</summary>
+
+![the index page preview](documentation/page-index.jpg)
+
+</details>
+
+
 
 - All Pages on the website have:
 
-  - A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is a logo. To the right is the navigation bar with the links to the websites pages (home, gallery, about, tours, and contact). To allow a good user experience of the site. When viewing with mobile devices the navigation links change to a vertical list. This was implemented to give the site a clean look and to promote a good user experience. There is also a go to top button that apears in all the pages (exept the contact page) once you start scrolling the website.
+  - A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is a logo. To the right is the navigation bar with the links to the websites pages (home, gallery, about, tours, and contact). To allow a good user experience of the site. When viewing with mobile devices the navigation links change to a vertical list. This was implemented to give the site a clean look and to promote a good user experience. There is also a go to top button that appears in all the pages (exept the contact page) once you start scrolling the website and other UI interaction elements like buttons, links and images.
 
+    <details close>
+    <summary>Navigation Bar</summary>
+
+    ![navigation bar](documentation/gif-nav.gif)
+        
+    </details>
+ 
+
+    <details close>
+    <summary>Buttons And Captions Hover Effect</summary>
+
+    ![images hover effect](documentation/gif-button.gif)  ![images hover effect](documentation/gif-photo-captions.gif)
+        
+    </details>
+  
   - A footer (exept the photo page) which contains social media icon links to facebook, twetter, youtube, and instagram. Icons were used to keep the footer clean and because they are universally recognisable.
 
+    <details close>
+    <summary>Social Media Links</summary>
+
+    ![social media links](documentation/gif-media.gif)
+        
+    </details>
+
 - Home Page.
+  
+  The home page consist of five sections:
 
+    - **The Hero Section**  
+        it contains a priview of the main article with a button that links to that article and also through clicking the hero image.
 
+        <details close>
+        <summary>Hero Section Preview</summary>
 
+        ![hero section preview](documentation/section-hero.jpg)
+            
+        </details>
+        <br/>
+        
+    - **The Gallery Section**  
+        contains a virtual video tour and a photo gallery. 
 
+        <details close>
+        <summary>Gallery Section Preview</summary>
 
+        ![video preview](documentation/section-video.jpg)
+        
+        ![gallery preview](documentation/section-photo-gallery.jpg)
+            
+        </details>
+
+    - **The About Section**  
+        contains a number of articles and information about the city. Each article is linked to a seperate html page.          
+
+        <details close>
+        <summary>About Section Preview</summary>
+
+        ![about section preview](documentation/section-about.jpg)
+        
+        </details>
+    
+    - **The Contact Us Section**  
+        contains a button that is linked to the contact html page.          
+
+        <details close>
+        <summary>Contact Us Section Preview</summary>
+
+        ![contact section preview](documentation/section-contact.jpg)
+        
+        </details>
+        
+    - **The Tours Section**  
+        contains a number of [tripadvisor](https://www.tripadvisor.com) tours. each element functions as an external link that opens in a new page.
+
+        <details close>
+        <summary>Contact Tours Preview</summary>
+
+        ![tours section preview](documentation/section-tours-footer.jpg)
+        
+        </details>
+
+- Article Page.
+
+    Each page contains an article with a couple of images.
+
+    <details close>
+    <summary>Article Page Preview</summary>
+
+    ![article page preview](documentation/page-article.jpg)
+    
+    </details>
+
+- Contact Page.
+
+    The contact page contains a form that allows the visitor to ask question and send messages. And also gives another way to contact through email.
+
+    <details close>
+    <summary>Contact Page Preview</summary>
+
+    ![contact page preview](documentation/page-contact.jpg)
+    
+    </details>
+
+- Photo Page.
+
+    The photo page plays of a black canvas to the photos, also contains a button that returns the visitor back to the gallery. 
+
+    <details close>
+    <summary>Photo Page Preview</summary>
+
+    ![photo page preview](documentation/page-photo.jpg)
+    
+    </details>
+    
 ### General features on each page
+    
+- The website is designed to be user friendly and all the pages are responsive. The visitor can use it with a varaity of screen sizes and resolutions.
+the breacking points used, are from this [article](https://testsigma.com/blog/css-breakpoints/#What_are_common_breakpoints).
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+    Responsivenes:
+    
+    -   <details close>
+        <summary>992px Preview</summary>
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+        ![992px preview](documentation/respons-992.png)
 
-### Future Implementations
+        </details>
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+    -   <details close>
+        <summary>768px Preview</summary>
+
+        ![768px preview](documentation/respons-768.png)
+
+        </details>
+
+    -   <details close>
+        <summary>480px Preview</summary>
+
+        ![480px preview](documentation/respons-480.png)
+
+        </details>
+
+- When the user hovers on an image a captions appears with information about the image. each image when clicked is a link to a seperate html page. This photo gallery was made using flexbox folowing the information from these articles:
+  
+  - [article](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)  
+  - [article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+
+            
+    <details close>
+    <summary>Gallery Captions</summary>
+
+    ![Gallery Captions](documentation/gif-gallery-hover.gif)
+
+    </details>
+
+- The layout for the about and the tours was made using css grid. It is also responsive, and was accomplished by the help from this [article](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+    
+   
+        
+
+- The images has a zoom hover effect similer to the one that was used in the love running project by [code institute](https://codeinstitute.net/).
+
+    <details close>
+    <summary>Images Hover Effect</summary>
+
+    ![images hover effect](documentation/gif-image.gif)
+        
+    </details>
+
+- The outline in the input fields change color when focused.
+
+    <details close>
+    <summary>Input Outline</summary>
+
+    ![input outline](documentation/gif-contact-input-focus.gif)
+        
+    </details>
+    
+- The website dos not have a fixed header. Instead a go to top button is used with smooth scrolling inspired from this [article](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678).
+
+
+- The embeded video iframe responsiveness was accomplished by the istructions from this [article](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+
+    <details close>
+    <summary>Images Hover Effect</summary>
+
+    ![images hover effect](documentation/gif-image.gif)
+        
+    </details>
+
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+- Using semantic HTML.
+- Using descriptive alt attributes on images on the site.
+- Providing information for screen readers where there are icons used - and no text - such as the review ratings for books & footer icons.
+- Ensuring that there is a sufficient colour contrast throughout the site.
+- Ensuring menus are accessible by marking the current page as current for screen readers.
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
-
+---
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were used to create this website.
+
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Balsamiq- Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Git - For version control.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[online-convert](https://www.online-convert.com) To change to webp format.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, petra.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
+How to Fork
+To fork the petra repository:
 
-Place instructions on how to fork your project here.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, AhmadAlmasriDev/petra.
+3. Click the Fork button in the top right corner.
+
 
 #### How to Clone
+To clone the petra repository:
 
-Place instructions on how to clone your project here.
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, AhmadAlmasriDev/petra.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 ## Testing
 
