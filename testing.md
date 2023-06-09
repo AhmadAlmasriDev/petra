@@ -17,6 +17,7 @@ Visit the deployed site: [Petra](https://ahmadalmasridev.github.io/petra)
   - [MANUAL TESTING](#manual-testing)
     - [Testing User Stories](#testing-user-stories)
     - [Full Testing](#full-testing)
+    - [Known Bugs](#known-bugs)
     - [Solved Bugs](#solved-bugs)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
@@ -280,17 +281,17 @@ Google Chrome on Windows, Edge
 
 ---
 
-<!-- 
+
 ### Known Bugs
 
 | Known Bug No | Bug Issue | Plan to Resolve |
 | :--- | :--- | :--- |
-| 1 |  | :--- | -->
+| 1 |  photo page the black background does not cover the whole scrren when change orientation and scroll | try ohter methods than absolute location|
 
 ### Solved Bugs
 
 | Bug No | Bug Issue | How Resolved |
 | :--- | :--- | :--- |
-| 1 |  photo page the black background does not cover the whole scrren when change orientation | created seperate div wit fixed location|
+| 1 | frameborder iframe proportiy from youtube embeded video gives a depricated proprtiy warning in html validator | deleted the proporty and used css instead|
 
 Back to [README.md](README.md)

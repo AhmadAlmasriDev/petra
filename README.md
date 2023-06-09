@@ -2,6 +2,7 @@
 The Petra website is designed to be a responsive website allowing visitors to view it on a range of devices. It allows visitors to find information about the ancient city of Petra.
 
 ![preview of the site](documentation/preview.jpg)
+
 [View Petra on Github Pages](https://ahmadalmasridev.github.io/petra/)
 
 ---
@@ -81,7 +82,7 @@ I have credited these in the [credits](#credits) section.
 
 ![the site color palette](documentation/palette.jpg)
 
-The website uses a palette of earth sand colours that can be seen in the rocky mountains in Petra, The colour palette was created using the Coolors website.
+The website uses a palette of earth sand colours that can be seen in the rocky mountains in Petra, The colour palette was created using the [Coolors](https://coolors.co) website.
 
 ### **Typography**
 
