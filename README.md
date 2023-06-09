@@ -64,7 +64,7 @@ Key information for the site
   - I want to see some photos of the city.
   - I want to see videos that contains scenes from Petra.
   - I want to ask some questions.
-  - i want to check there socialmedia.
+  - i want to check there social media.
 
 **Returning Visitor Goals**
   - I want to be able to easily ask questions.

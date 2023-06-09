@@ -17,8 +17,6 @@ Visit the deployed site: [Petra](https://ahmadalmasridev.github.io/petra)
   - [MANUAL TESTING](#manual-testing)
     - [Testing User Stories](#testing-user-stories)
     - [Full Testing](#full-testing)
-  - [Bugs](#bugs)
-    - [Known Bugs](#known-bugs)
     - [Solved Bugs](#solved-bugs)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
@@ -119,40 +117,65 @@ Mobile
 - - -
 
 ## MANUAL TESTING
+<!-- ### **User Stories**
+ **Visitor Goals**
+  - To be able to view the site on a range of device sizes.
+  - To be able to navigate through the website with ease.
+  - To be able to ask questions through the website.
+  - To provide the user with relevant information regarding Petra.
+  
+**First Time Visitor Goals**
+  - I want to know what is Petra and where is it.
+  - I want to see some photos of the city.
+  - I want to see videos that contains scenes from Petra.
+  - I want to ask some questions.
+  - i want to check there social media.
+
+**Returning Visitor Goals**
+  - I want to be able to easily ask questions.
+  - I want to check the latest tours in the city.
+  - I want to check the virtual tour video. -->
 
 ### Testing User Stories
 
-`First Time Visitors`
+`Visitor Goals`
 
 | Goals | How are they achieved? | Links & Images |
 | :--- | :--- | :--- |
-| To quickly and easily discover charities that are local to me, that have an environmental focus, and which reflect my values and interests, without having to research and compare a range of organisations. | By selecting the area that the user would like to discover charities in during the first question of the quiz, the user will then be given a personalised charity result based on the area they selected, this is then combined with their selections for the rest of the questions to direct them to a charity that focuses on an environmental cause that they would be interested in. | [Quiz Section Image](readme/testing/user-stories-area.png) |
-| To be profiled for these recommendations through a light-hearted, multiple choice quiz. | We decided that we would like to present the quiz in the style of a buzzfeed quiz, rather than asking users outright to select their preferences of charity type, we have created the questions so that the answer leads towards a certain type of charity. | [Quiz Question Example Image](readme/testing/user-stories-question.png) |
-| To be presented with a link to my recommended organisation’s website. | Upon completion of the quiz the user is then redirected to the relevant page for their charity. ID's have been used to target the correct section of the page that the user is being redirected to, so that when the page opens it will automatically display the right section of the page. | [Quiz Results Image](readme/testing/user-stories-quiz-results.png) |
-| To feel secure in the knowledge that my recommended organisation is a legitimate,  registered charity. | All Charities have been thoroughly researched and we have ensured that each charity is currently running and is registered on the relevent governments charity register.   | [Charity Research Spreadsheet](https://docs.google.com/spreadsheets/d/1PVfykTEjhAZT__f2wiTC8DxzqeNkVgD_EtOPIMHBkMw/edit?usp=sharing) |
-| To  be able to easily navigate back to the homepage after completing the quiz if I wish to repeat the quiz with different answers. | Each page contains the navbar that allows the user to redirect to the home page when ready. | [Navbar Image](readme/navbar.png) |
-| To have a means of learning more about Earth Day, and its theme for 2022, as well as a resource for discovering more organisations that work in these areas. | A link to the official Earth Day website is included in the information section of the home page. |[Earth Day Site Image](readme/testing/earth-day-link.png) |
+|To provide the user with relevant information regarding Petra.| By providing the visitor with a variety of articles and multimedia that can be found in the about, and gallery sections|[About Sections](documentation/section-about.jpg), [Gallery Sections](documentation/section-video.jpg)
+|To be able to view the site on a range of device sizes.| By using multiple break point for common used devices and impleminting UI responsiveness css rules|[992px](documentation/respons-992.png), [768px](documentation/respons-768.png), [480px](documentation/respons-480.png)
+|To be able to navigate through the website with ease.| By using a navigation bar on the toop of the page with UI interractions and a go to top button that appears whin the visitor start scrolling down| [Navigation Bar](documentation/gif-nav.gif)
+|To be able to ask questions through the website.| By using a seperate form page for sending messages and questions, or through the email provided.| [Contact Page](documentation/page-contact.jpg)
 
-`Returning Visitors`
 
-*We hope to implement features in a future implementation that will address the requirements of returning visitiors.*
+`First Time Visitor Goals`
 
 | Goals | How are they achieved? | Images |
 | :--- | :--- | :--- |
-| To be able to access a full list of the charities for my area of choice, without having to navigate the quiz repeatedly to get different results. | To Be Implemented | - |
-| To have different quiz questions presented to me based on my earlier choices in the quiz, creating a sense a variety that encourages repeat use. | To Be Implemented | - |
+|I want to know what is Petra and where is it.| By providing the visitor with a variety of articles and multimedia that can be found in the about, and gallery sections|[About Sections](documentation/section-about.jpg), [Gallery Sections](documentation/section-video.jpg)
+|I want to see some photos of the city.| By providing a photo gallery section|[Gallery Sections](documentation/section-photo-gallery.jpg)
+|I want to see videos that contains scenes from Petra| By providing the visitor with a VR video tour in the gallery section|[Video Tour](documentation/section-video.jpg)
+|I want to ask some questions.| By using a seperate form page for sending messages and questions, or through the email provided.| [Contact Page](documentation/page-contact.jpg)
+|i want to check there social media.| By providing a social media links in the footer| Social Media](documentation/gif-media.gif)
 
+`Returning Visitor Goals`
+
+| Goals | How are they achieved? | Images |
+| :--- | :--- | :--- |
+|I want to be able to easily ask questions.| By using a seperate form page for sending messages and questions, or through the email provided.| [Contact Page](documentation/page-contact.jpg)
+|I want to check the latest tours in the city.| By providing tours section with the latest tours from [tripaviser](https://www.tripadvisor.com/)| [Tours Section](documentation/section-tours-footer.jpg)
+|I want to check the virtual tour video.| By providing the visitor with a VR video tour in the gallery section|[Video Tour](documentation/section-video.jpg)
 - - -
 
 ### Full Testing
 
 Full testing was performed on the following devices, and additional testing for other devices was carried out using developer tools:
 
-iMac 2021, MacBook Pro 14 inch 2021, iPhone 13 Pro, Samsung S20, 25 inch monitor, windows laptop
+windows laptop, ultrawide 20" monitor, 16:9 24" monitor, 16:9 17" monitor. 
 
 Each device tested the site using the following browsers:
 
-Google Chrome on Mac and Windows, Safari
+Google Chrome on Windows, Edge
 
 `Index Page`
 
@@ -162,86 +185,112 @@ Google Chrome on Mac and Windows, Safari
 |  |  |  |  |  |
 | Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
 | Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
-| Navbar home link - Hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar quiz link | When clicked you are redirected to the Quiz Section of the home page | Clicked link | Redirected to quiz section of home page | Pass |
-| Navbar quiz link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar information link | When clicked you are redirected to the Information section of the home page | Clicked link | Redirected to information section of home page | Pass |
-| Navbar information link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
-| Navbar contact us link | When clicked you are redirected to the Contact Us section of the home page | Clicked link | Redirected to contact us section of home page | Pass |
-| Navbar contact us link - hover | When hovered over a line will appear under the link | Hovered over link | Line appeared under link | Pass |
+| Navbar home link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar gallery link | When clicked you are redirected to the gallery section | Clicked link | Redirected to gallery section | Pass |
+| Navbar gallery link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar about link | When clicked you are redirected to the about section | Clicked link | Redirected to about section | Pass |
+| Navbar about link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar tours link | When clicked you are redirected to the tours section | Clicked link | Redirected to tours section | Pass |
+| Navbar tours link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar contact link | When clicked you are redirected to the contact page | Clicked link | Redirected to contact page | Pass |
+| Navbar contact link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| **HERO SECTION** |  |  |  |  |
 |  |  |  |  |  |
-| **HERO IMAGE BUTTONS** |  |  |  |  |
+| more info button | Directs to main article page | Clicked button | Directed to main article page | Pass |
+| more info button - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
+| hero image link | Directs to main article page | Clicked button | Directed to main article page | Pass |
+| hero image link - Hover | When hovered on trigers a zoom effect | Hovered over image | trigersd a zoom effect | Pass |
+| **GALLERY SECTION** |  |  |  |  |
 |  |  |  |  |  |
-| Take quiz button | Directs to quiz section of home page | Clicked button | Directed to quiz section of home page | Pass |
-| Take quiz button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
-| Show me more button | Directs to the information section of home page | Clicked button | Taken to information section of home page | Pass |
-| Show me more button - hover | When hovered over button changes colour | Hovered over button | Button changes colour | Pass |
+| gallery video tour | Starts the video when click play button| Clicked play button| Started the video | Pass |
+| photo gallery images | Directs to a seperate photo page| Clicked image | Directed to seperate phot page | Pass |
+| photo gallery images - Hover | When hovered on trigers an overlay effect wit text info | Hovered over image | trigered an overlay effect wit text info | Pass |
+| **ABOUT SECTION** |  |  |  |  |
 |  |  |  |  |  |
-| **QUIZ** |  |  |  |  |
+| article images | Directs to the article page| Clicked image | Directed to the article page | Pass |
+| article images - Hover | When hovered on trigers a zoom effect | Hovered over image | trigersd a zoom effect | Pass |
+| images captions | Directs to the article page| Clicked image | Directed to the article page | Pass |
+| images captions - Hover | When hovered changes font color to dark orange | Hovered over image caption | changed font color to dark orange | Pass |
+| **CONTACT SECTION** |  |  |  |  |
 |  |  |  |  |  |
-| --- | --- | --- | --- | --- |
+| contact us button | Directs to the contact page | Clicked button | Directed to the contact page  | Pass |
+| contact us button - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
+| **TOURS SECTION** |  |  |  |  |
 |  |  |  |  |  |
-| **INFORMATION SECTION - FIND OUT MORE** |  |  |  |  |
-|  |  |  |  |  |
-| Earth Day 2022 Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Earth Day 2022 Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| Global Recycling Day Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Global Recycling Day Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| Climate Change Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| Climate Change Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-| BBC Food Calculator Image | When clicked you are redirected to the page in a new tab | Clicked image | Page opens in a new tab | Pass |
-| BBC Food Calculator Text | When clicked you are redirected to the page in a new tab | Clicked text | Page opens in a new tab | Pass |
-|  |  |  |  |  |
-| **CONTACT US** |  |  |  |  |
-|  |  |  |  |  |
-| Submit Form Button - No information entered by user | The form will direct the user to fill in the name field | Clicked submit button with no information filled in | Asked to fill in name field | Pass |
-| Submit Form Button - Some information entered | User will be directed to fill in the fields they have left blank | Filled in only part of the form | Asked to fill in the missing fields | Pass |
-| Submit form button - all fields filled out | Modal pop up with message confirming message successfully sent | Filled in all forms and pressed submit | Modal popped up with success message | Pass |
-| Submit button - hover | when hovered over the button changes colour | Hovered over button | Button changed colour | Pass |
-| Name input - focus | When input field is clicked on the border of the input field will change colour | Clicked on input field | Border changed colour | Pass |
-| Email input - focus | When input field is clicked on the border of the input field will change colour | Clicked on input field | Border changed colour | Pass |
-| Text Area - focus |When text area is clicked on the border of the text area will change colour | Clicked on text area | Border changed colour | Pass |
-|  |  |  |  |  |
+| tour images | Directs to a targeted external page| Clicked image | Directed to the targeted external page | Pass |
+| tour images - Hover | When hovered on trigers a zoom effect | Hovered over image | trigersd a zoom effect | Pass |
+| images captions | Directs to a targeted external page| Clicked image | Directed to a targeted external page | Pass |
+| images captions - Hover | When hovered changes font color to dark orange | Hovered over image caption | changed font color to dark orange | Pass |
 | **FOOTER** |  |  |  |  |
 |  |  |  |  |  |
-| Alaa GitHub Icon | When clicked you will be redirected to Alaas GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Alaa GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Alaa Linked In Icon | When clicked you will be redirected to Alaas Linked In profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Alaa Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Cillian GitHub Icon | When clicked you will be redirected to Cillians GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Cillian GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Cillian Linked In Icon | When clicked you will be redirected to Cillians Linked In profile in a new tab | --Clicked icon- | Profile opened in a new tab | Pass |
-| Cillian Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Janelle GitHub Icon | When clicked you will be redirected to Janelles GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Janelle GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Janelle Linked In Icon | When clicked you will be redirected to Janelles Linked In profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Janelle Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| John GitHub Icon | When clicked you will be redirected to Johns GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| John GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| John Linked In Icon | When clicked you will be redirected to Johns Linked In profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| John Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Kera GitHub Icon | When clicked you will be redirected to Keras GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Kera GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Kera Linked In Icon | When clicked you will be redirected to Keras Linked In profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Kera Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Trevor GitHub Icon | When clicked you will be redirected to Trevors GitHub profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Trevor GitHub Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
-| Trevor Linked In Icon | When clicked you will be redirected to Trevors Linked In profile in a new tab | Clicked icon | Profile opened in a new tab | Pass |
-| Trevor Linked In Icon - hover | When hovered over a line will appear under the icon | Hovered over icon | Line appeared | Pass |
+| facebook button | Directs to facebook page | Clicked button | Directed to facebook  page | Pass |
+| facebook button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| twitter button | Directs to twitter page | Clicked button | Directed to twitter page | Pass |
+| twitter button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| youtube button | Directs to youtube page | Clicked button | Directed to youtube page | Pass |
+| youtube button- Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| instagram button | Directs to instagram page | Clicked button | Directed to instagram page | Pass |
+| instagram button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| to top button | Directs to the top of the page | Clicked button | Directed to the top of the page  | Pass |
+| to top button - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
+
+---
+
+`Article Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| **NAVBAR** |  |  |  |  |
+|  |  |  |  |  |
+| Logo image link | When clicked you are redirected to the home page | Clicked Logo | Redirected to home page | Pass|
+| Navbar home link | When clicked you are redirected to the home page | Clicked link | Redirected to home page | Pass |
+| Navbar home link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar gallery link | When clicked you are redirected to the gallery section | Clicked link | Redirected to gallery section | Pass |
+| Navbar gallery link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar about link | When clicked you are redirected to the about section | Clicked link | Redirected to about section | Pass |
+| Navbar about link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar tours link | When clicked you are redirected to the tours section | Clicked link | Redirected to tours section | Pass |
+| Navbar tours link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| Navbar contact link | When clicked you are redirected to the contact page | Clicked link | Redirected to contact page | Pass |
+| Navbar contact link - Hover | When hovered over converts to a red button wit white font | Hovered over link | converted to a red button with white font | Pass |
+| to top button | Directs to the top of the page | Clicked button | Directed to the top of the page  | Pass |
+| to top button - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
+| **FOOTER** |  |  |  |  |
+|  |  |  |  |  |
+| facebook button | Directs to facebook page | Clicked button | Directed to facebook  page | Pass |
+| facebook button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| twitter button | Directs to twitter page | Clicked button | Directed to twitter page | Pass |
+| twitter button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| youtube button | Directs to youtube page | Clicked button | Directed to youtube page | Pass |
+| youtube button- Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| instagram button | Directs to instagram page | Clicked button | Directed to instagram page | Pass |
+| instagram button - Hover | When hovered over font color change to dark orange | Hovered over button | font color changed to dark orange | Pass |
+| to top button | Directs to the top of the page | Clicked button | Directed to the top of the page  | Pass |
+| to top button - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
+
+--- 
+
+`Photo Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| back to gallery button | Directs to the photo gallery in home page | Clicked button | Directed to the photo gallery in home page | Pass |
+| back to gallery - Hover | When hovered over back ground color change to dark orange | Hovered over button | back ground color changed to dark orange | Pass |
 
 
-## Bugs
+---
 
+<!-- 
 ### Known Bugs
 
 | Known Bug No | Bug Issue | Plan to Resolve |
 | :--- | :--- | :--- |
-| 1 |  | :--- |
+| 1 |  | :--- | -->
 
 ### Solved Bugs
 
 | Bug No | Bug Issue | How Resolved |
 | :--- | :--- | :--- |
-| 1 |  | :--- |
+| 1 |  photo page the black background does not cover the whole scrren when change orientation | created seperate div wit fixed location|
 
 Back to [README.md](README.md)
