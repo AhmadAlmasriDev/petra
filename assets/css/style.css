@@ -235,6 +235,13 @@ header.flex-container {
     max-width: 580px;
 }
 
+h2.title {
+    letter-spacing: 0;
+    font-size: 55px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
 .hero-cover-text p {
     margin-bottom: 48px;
 }
@@ -523,7 +530,10 @@ div.footer-container {
     padding: 0 64px;
 }
 
-.article-header>h1 {
+.article-header>h2 {
+    letter-spacing: 0;
+    font-size: 55px;
+    margin-bottom: 18px;
     max-width: 700px;
     text-align: center;
     margin: 0 auto;
@@ -618,7 +628,9 @@ div.article-image-size {
     padding: 0 64px;
 }
 
-.contact-header h1 {
+.contact-header h2 {
+    letter-spacing: 0;
+    font-size: 55px;
     max-width: 700px;
     text-align: left;
     margin: 0;
@@ -792,7 +804,7 @@ input.button {
 
     }
 
-    .hero-cover-text h1 {
+    .hero-cover-text h2 {
         font-size: 43px;
     }
 
@@ -827,7 +839,7 @@ input.button {
     /* article page---------------------------------------------------------- */
 
     /* article hero sec-------------------------------- */
-    .article-header h1 {
+    .article-header h2 {
         font-size: 43px;
         padding: 64px 0 32px 0;
     }
@@ -843,7 +855,7 @@ input.button {
     /* contact page---------------------------------------------------------- */
 
     /* contact header-------------------------------- */
-    .contact-header-container h1 {
+    .contact-header-container h2 {
         font-size: 43px;
         padding: 32px 0 16px 0
     }
@@ -960,7 +972,7 @@ input.button {
         padding: 0 32px;
     }
 
-    h1.title {
+    h2.title {
         font-size: 30px;
     }
 
@@ -1002,7 +1014,7 @@ input.button {
         margin-bottom: 32px;
     }
 
-    .hero-cover-text h1 {
+    .hero-cover-text h2 {
         padding-top: 16px;
     }
 
@@ -1017,7 +1029,7 @@ input.button {
     /* article page---------------------------------------------------------- */
 
     /* article header------------------------------------ */
-    .article-header>h1 {
+    .article-header>h2 {
         font-size: 30px;
         padding: 32px 0 32px 0;
     }
@@ -1047,6 +1059,10 @@ input.button {
         margin: 32px auto;
     }
 
+    #article-text>div {
+        padding: 0;
+    }
+
     p {
         font-size: 16px;
         margin-bottom: 10px;
@@ -1070,7 +1086,7 @@ input.button {
     /* contact page---------------------------------------------------------------------- */
 
     /* contact header-------------------------------------- */
-    .contact-header-container h1 {
+    .contact-header-container h2 {
         font-size: 30px;
     }
 
