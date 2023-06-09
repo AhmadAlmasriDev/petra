@@ -1,4 +1,5 @@
 # PETRA Website
+
 The Petra website is designed to be a responsive website allowing visitors to view it on a range of devices. It allows visitors to find information about the ancient city of Petra.
 
 ![preview of the site](documentation/preview.jpg)
@@ -15,7 +16,7 @@ The Petra website is designed to be a responsive website allowing visitors to vi
     - [**Initial Discussion**](#initial-discussion)
     - [**User Stories**](#user-stories)
   - [**Design**](#design)
-    - [**Colour Scheme**](#colour-scheme)
+    - [**Color Scheme**](#color-scheme)
     - [**Typography**](#typography)
     - [**Imagery**](#imagery)
     - [**Features**](#features)
@@ -39,50 +40,59 @@ The Petra website is designed to be a responsive website allowing visitors to vi
 ---
 
 ## **User Experience (UX)**
+
 <br>
 
 ### **Initial Discussion**
 
-The Petra website is an information portal about the ancient city and the beautiful scenerys inside and around it, the visitor can go through the various articles and photos so that they can get a rough idea of what they can expect when they visit Petra.
+The Petra website is an information portal about the ancient city and the beautiful scenery inside and around it, the visitor can go through the various articles and photos so that they can get a rough idea of what they can expect when they visit Petra.
 
 Key information for the site
+
 - Articles regarding Petra.
-- Photos of variuos parts of the city.
+- Photos of various parts of the city.
 - A virtual tour video.
 - A form to contact and ask questions.
 - A couple of good tours from tripadvisor.com.
-- A way to check our socialmedia pages.
+- A way to check our social media pages.
 
 ### **User Stories**
+
  **Visitor Goals**
-  - To be able to view the site on a range of device sizes.
-  - To be able to navigate through the website with ease.
-  - To be able to ask questions through the website.
-  - To provide the user with relevant information regarding Petra.
+
+- To be able to view the site on a range of device sizes.
+- To be able to navigate through the website with ease.
+- To be able to ask questions through the website.
+- To provide the user with relevant information regarding Petra.
   
 **First Time Visitor Goals**
-  - I want to know what is Petra and where is it.
-  - I want to see some photos of the city.
-  - I want to see videos that contains scenes from Petra.
-  - I want to ask some questions.
-  - i want to check there social media.
+
+- I want to know what is Petra and where is it.
+- I want to see some photos of the city.
+- I want to see videos that contains scenes from Petra.
+- I want to ask some questions.
+- I want to check there social media.
 
 **Returning Visitor Goals**
-  - I want to be able to easily ask questions.
-  - I want to check the latest tours in the city.
-  - I want to check the virtual tour video.
+
+- I want to be able to easily ask questions.
+- I want to check the latest tours in the city.
+- I want to check the virtual tour video.
+
 ---
+
 ## **Design**
+
 <br>
 
 The initial design was inspired by two websites templates online,
 I have credited these in the [credits](#credits) section.
 
-### **Colour Scheme**
+### **Color Scheme**
 
 ![the site color palette](documentation/palette.jpg)
 
-The website uses a palette of earth sand colours that can be seen in the rocky mountains in Petra, The colour palette was created using the [Coolors](https://coolors.co) website.
+The website uses a palette of earth sand colors that can be seen in the rocky mountains in Petra, The color palette was created using the [Coolors](https://coolors.co) website.
 
 ### **Typography**
 
@@ -97,7 +107,8 @@ Inter is used for the body text on the site.
 ![Inter font](documentation/font-inter.jpg)
 
 ### **Imagery**
-The images used are royality free images downloaded from two photobanks, and the video is from Youtube. I have credited these in the [credits](#credits) section.
+
+The images used are royalty free images downloaded from two photobanks, and the video is from YouTube. I have credited these in the [credits](#credits) section.
 
 Wireframes were created with [Balsamiq](https://balsamiq.com) Wireframes program.
 
@@ -126,7 +137,7 @@ Wireframes were created with [Balsamiq](https://balsamiq.com) Wireframes program
 ### **Features**
 
 The website is a single page design with five sections, four of which are accessible from the navigation menu (home, gallery, about, tours & contact pages). The fifth page is a contact form page which is shown once a user clicks the contact navigation button or through contact us button at the end of the home page.
-And also has two seperate pages (article and photo pages) these pages are accessible once the user clicks a photo from the gallery or an article from the about sections.
+And also has two separate pages (article and photo pages) these pages are accessible once the user clicks a photo from the gallery or an article from the about sections.
 <details close>
 <summary>Index Page Preview</summary>
 
@@ -134,91 +145,88 @@ And also has two seperate pages (article and photo pages) these pages are access
 
 </details>
 
-
-
 - All Pages on the website have:
 
-  - A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is a logo. To the right is the navigation bar with the links to the websites pages (home, gallery, about, tours, and contact). To allow a good user experience of the site. When viewing with mobile devices the navigation links change to a vertical list. This was implemented to give the site a clean look and to promote a good user experience. There is also a go to top button that appears in all the pages (exept the contact page) once you start scrolling the website and other UI interaction elements like buttons, links and images.
+  - A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is a logo. To the right is the navigation bar with the links to the websites pages (home, gallery, about, tours, and contact). To allow a good user experience of the site. When viewing with mobile devices the navigation links change to a vertical list. This was implemented to give the site a clean look and to promote a good user experience. There is also a go to top button that appears in all the pages (except the contact page) once you start scrolling the website and other UI interaction elements like buttons, links and images.
 
     <details close>
     <summary>Navigation Bar</summary>
 
     ![navigation bar](documentation/gif-nav.gif)
-        
+
     </details>
- 
 
     <details close>
     <summary>Buttons And Captions Hover Effect</summary>
 
     ![images hover effect](documentation/gif-button.gif)  ![images hover effect](documentation/gif-photo-captions.gif)
-        
+
     </details>
   
-  - A footer (exept the photo page) which contains social media icon links to facebook, twetter, youtube, and instagram. Icons were used to keep the footer clean and because they are universally recognisable.
+  - A footer (except the photo page) which contains social media icon links to Facebook, Twitter, YouTube, and Instagram. Icons were used to keep the footer clean and because they are universally recognizable.
 
     <details close>
     <summary>Social Media Links</summary>
 
     ![social media links](documentation/gif-media.gif)
-        
+
     </details>
 
 - Home Page.
   
   The home page consist of five sections:
 
-    - **The Hero Section**  
-        it contains a priview of the main article with a button that links to that article and also through clicking the hero image.
+  - **The Hero Section**  
+        it contains a preview of the main article with a button that links to that article and also through clicking the hero image.
 
         <details close>
         <summary>Hero Section Preview</summary>
 
         ![hero section preview](documentation/section-hero.jpg)
-            
+
         </details>
         <br/>
-        
-    - **The Gallery Section**  
-        contains a virtual video tour and a photo gallery. 
+
+  - **The Gallery Section**  
+        contains a virtual video tour and a photo gallery.
 
         <details close>
         <summary>Gallery Section Preview</summary>
 
         ![video preview](documentation/section-video.jpg)
-        
+
         ![gallery preview](documentation/section-photo-gallery.jpg)
-            
+
         </details>
 
-    - **The About Section**  
-        contains a number of articles and information about the city. Each article is linked to a seperate html page.          
+  - **The About Section**  
+        contains a number of articles and information about the city. Each article is linked to a separate html page.
 
         <details close>
         <summary>About Section Preview</summary>
 
         ![about section preview](documentation/section-about.jpg)
-        
+
         </details>
-    
-    - **The Contact Us Section**  
-        contains a button that is linked to the contact html page.          
+
+  - **The Contact Us Section**  
+        contains a button that is linked to the contact html page.
 
         <details close>
         <summary>Contact Us Section Preview</summary>
 
         ![contact section preview](documentation/section-contact.jpg)
-        
+
         </details>
-        
-    - **The Tours Section**  
-        contains a number of [tripadvisor](https://www.tripadvisor.com) tours. each element functions as an external link that opens in a new page.
+
+  - **The Tours Section**  
+        contains a number of [TripAdvisor](https://www.tripadvisor.com) tours. each element functions as an external link that opens in a new page.
 
         <details close>
         <summary>Contact Tours Preview</summary>
 
         ![tours section preview](documentation/section-tours-footer.jpg)
-        
+
         </details>
 
 - Article Page.
@@ -229,7 +237,7 @@ And also has two seperate pages (article and photo pages) these pages are access
     <summary>Article Page Preview</summary>
 
     ![article page preview](documentation/page-article.jpg)
-    
+
     </details>
 
 - Contact Page.
@@ -240,54 +248,53 @@ And also has two seperate pages (article and photo pages) these pages are access
     <summary>Contact Page Preview</summary>
 
     ![contact page preview](documentation/page-contact.jpg)
-    
+
     </details>
 
 - Photo Page.
 
-    The photo page plays of a black canvas to the photos, also contains a button that returns the visitor back to the gallery. 
+    The photo page plays of a black canvas to the photos, also contains a button that returns the visitor back to the gallery.
 
     <details close>
     <summary>Photo Page Preview</summary>
 
     ![photo page preview](documentation/page-photo.jpg)
-    
+
     </details>
-    
+
 ### General features on each page
-    
-- The website is designed to be user friendly and all the pages are responsive. The visitor can use it with a varaity of screen sizes and resolutions.
-the breacking points used, are from this [article](https://testsigma.com/blog/css-breakpoints/#What_are_common_breakpoints).
+
+- The website is designed to be user friendly and all the pages are responsive. The visitor can use it with a variety of screen sizes and resolutions.
+the breaking points used, are from this [article](https://testsigma.com/blog/css-breakpoints/#What_are_common_breakpoints).
 
     Responsivenes:
-    
-    -   <details close>
+
+  - <details close>
         <summary>992px Preview</summary>
 
         ![992px preview](documentation/respons-992.png)
 
         </details>
 
-    -   <details close>
+  - <details close>
         <summary>768px Preview</summary>
 
         ![768px preview](documentation/respons-768.png)
 
         </details>
 
-    -   <details close>
+  - <details close>
         <summary>480px Preview</summary>
 
         ![480px preview](documentation/respons-480.png)
 
         </details>
 
-- When the user hovers on an image a captions appears with information about the image. each image when clicked is a link to a seperate html page. This photo gallery was made using flexbox folowing the information from these articles:
+- When the user hovers on an image a captions appears with information about the image. each image when clicked is a link to a separate html page. This photo gallery was made using flexbox following the information from these articles:
   
   - [article](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)  
   - [article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 
-            
     <details close>
     <summary>Gallery Captions</summary>
 
@@ -297,17 +304,13 @@ the breacking points used, are from this [article](https://testsigma.com/blog/cs
 
 - The layout for the about and the tours was made using css grid. It is also responsive, and was accomplished by the help from this [article](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-    
-   
-        
-
 - The images has a zoom hover effect similer to the one that was used in the love running project by [code institute](https://codeinstitute.net/).
 
     <details close>
     <summary>Images Hover Effect</summary>
 
     ![images hover effect](documentation/gif-image.gif)
-        
+
     </details>
 
 - The outline in the input fields change color when focused.
@@ -316,11 +319,10 @@ the breacking points used, are from this [article](https://testsigma.com/blog/cs
     <summary>Input Outline</summary>
 
     ![input outline](documentation/gif-contact-input-focus.gif)
-        
-    </details>
-    
-- The website dos not have a fixed header. Instead a go to top button is used with smooth scrolling inspired from this [article](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678).
 
+    </details>
+
+- The website dos not have a fixed header. Instead a go to top button is used with smooth scrolling inspired from this [article](https://levelup.gitconnected.com/how-to-implement-scroll-to-top-with-only-css-ae27cb9d4678).
 
 - The embeded video iframe responsiveness was accomplished by the istructions from this [article](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 
@@ -328,9 +330,8 @@ the breacking points used, are from this [article](https://testsigma.com/blog/cs
     <summary>Images Hover Effect</summary>
 
     ![images hover effect](documentation/gif-image.gif)
-        
-    </details>
 
+    </details>
 
 ### Accessibility
 
@@ -339,18 +340,19 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Using semantic HTML.
 - Using descriptive alt attributes on images on the site.
 - Providing information for screen readers where there are icons used - and no text - such as the review ratings for books & footer icons.
-- Ensuring that there is a sufficient colour contrast throughout the site.
+- Ensuring that there is a sufficient color contrast throughout the site.
 - Ensuring menus are accessible by marking the current page as current for screen readers.
 
 ---
+
 ## Technologies Used
+
 <br/>
 
 ### Languages Used
 
 - HTML
 - CSS
-
 
 ### Frameworks, Libraries & Programs Used
 
@@ -371,6 +373,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - [Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 
 ---
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -387,6 +390,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 ### Local Development
 
 #### How to Fork
+
 How to Fork
 To fork the petra repository:
 
@@ -394,8 +398,8 @@ To fork the petra repository:
 2. Go to the repository for this project, AhmadAlmasriDev/petra.
 3. Click the Fork button in the top right corner.
 
-
 #### How to Clone
+
 To clone the petra repository:
 
 1. Log in (or sign up) to GitHub.
@@ -405,13 +409,17 @@ To clone the petra repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ---
+
 ## Testing
+
 <br>
 
 Please view [Testing.md](testing.md) for the testing documentation.
 
 ---
+
 ## Credits
+
 <br/>
 ### Code Used
 
@@ -424,9 +432,8 @@ Please view [Testing.md](testing.md) for the testing documentation.
 - [Css grid](https://css-tricks.com/snippets/css/complete-guide-grid)
 
 - [Go to top button](https://levelup.gitconnected.com/animated-page-scroll-with-html-and-css-only-3788c4e2b853)
-- 
+-
 - [Responsive iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
-
 
 - Design and colors was inspired by these two websites:
   
@@ -439,7 +446,6 @@ Please view [Testing.md](testing.md) for the testing documentation.
 - [Facts about Petra article](https://www.traveltalktours.com/13-exciting-facts-petra-jordan)
 - [Wadi Musa article](https://www.touristjordan.com/wadi-musa)
 - [Wadi Rum article](https://whc.unesco.org/en/list/1377)
-
 
 ###  Media
 
