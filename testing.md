@@ -33,7 +33,7 @@ I have also used W3 Validator to check the HMTL & CSS.
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS. 
 
-Since the photo pages and the articles pages are technically the same. One page of each type was tested. 
+`Since the photo pages and the articles pages are technically the same. One page of each type was tested.`
 
 <details close>
 <summary>Index Page</summary>
@@ -77,6 +77,9 @@ Since the photo pages and the articles pages are technically the same. One page 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 Overall, the lighthouse scores are very good, with one or two things that could be improved. To achieve better scores I converted all images to the webp format.
+
+`Since the photo pages and the articles pages are technically the same. One page of each type was tested.`
+
 
 ### Results
 
