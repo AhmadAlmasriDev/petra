@@ -1034,6 +1034,8 @@ input.button {
         row-gap: 32px;
     }
 
+
+
     /* article page---------------------------------------------------------- */
 
     /* article header------------------------------------ */
@@ -1043,7 +1045,7 @@ input.button {
     }
 
     /* article hero------------------------------------ */
-    div.base-image-container {
+    div.hero-article-image-size {
         height: 420px;
     }
 
