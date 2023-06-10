@@ -31,33 +31,42 @@ I have also used W3 Validator to check the HMTL & CSS.
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS. 
+
+Since the photo pages and the articles pages are technically the same. One page of each type was tested. 
 
 <details close>
 <summary>Index Page</summary>
 
-![Index Page](documentation/test-valid-css.jpg)
+![Index Page](documentation/test-index-html-valid.png)
+
+</details>
+
+<details close>
+<summary>Article Page</summary>
+
+![Index Page](documentation/test-article-html-valid.png)
 
 </details>
 
 <details close>
 <summary>Contact Page</summary>
 
-![Contact Page](documentation/test-valid-css.jpg)
+![Contact Page](documentation/test-contact-html-valid.png)
 
 </details>
 
 <details close>
 <summary>Photo Page</summary>
 
-![Photo Page](documentation/test-valid-css.jpg)
+![Photo Page](documentation/test-photo-html-valid.png)
 
 </details>
 
 <details close>
 <summary>Style.css</summary>
 
-![Style.css](documentation/test-valid-css.jpg)
+![Style.css](documentation/test-css-valid.jpg)
 
 </details>
 
@@ -76,11 +85,24 @@ Overall, the lighthouse scores are very good, with one or two things that could 
 
 Desktop
 
-![index Page Desktop](documentation/test-index-desktop.jpg)
+![index Page Desktop](documentation/test-lh-index-desktop.png)
 
 Mobile
 
-![index Page Mobile](documentation/test-index-mobile.jpg)
+![index Page Mobile](documentation/test-lh-index-mob.png)
+
+</details>
+
+<details close>
+<summary>Article Page</summary>
+
+Desktop
+
+![index Page Desktop](documentation/test-lh-article-desktop.png)
+
+Mobile
+
+![index Page Mobile](documentation/test-lh-article-mob.png)
 
 </details>
 
@@ -89,11 +111,11 @@ Mobile
 
 Desktop
 
-![Contact Page Desktop](documentation/test-contact-desktop.jpg)
+![Contact Page Desktop](documentation/test-lh-contact-desktop.png)
 
 Mobile
 
-![Contact Page Mobile](documentation/test-contact-mobile.jpg)
+![Contact Page Mobile](documentation/test-lh-contact-desktop.png)
 
 </details>
 
@@ -102,11 +124,11 @@ Mobile
 
 Desktop
 
-![Photo Page Desktop](documentation/test-photo-desktop.jpg)
+![Photo Page Desktop](documentation/test-lh-photo-desktop.png)
 
 Mobile
 
-![index Page Mobile](documentation/test-photo-mobile.jpg)
+![index Page Mobile](documentation/test-lh-photo-desktop.png)
 
 </details>
 

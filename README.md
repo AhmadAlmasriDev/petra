@@ -53,7 +53,7 @@ Key information for the site
 - Photos of various parts of the city.
 - A virtual tour video.
 - A form to contact and ask questions.
-- A couple of good tours from tripadvisor.com.
+- A couple of good tours from [TripAdvisor](https://www.tripadvisor.com).
 - A way to check our social media pages.
 
 ### **User Stories**
@@ -179,55 +179,56 @@ And also has two separate pages (article and photo pages) these pages are access
   - **The Hero Section**  
         it contains a preview of the main article with a button that links to that article and also through clicking the hero image.
 
-        <details close>
-        <summary>Hero Section Preview</summary>
+    <details close>
+    <summary>Hero Section Preview</summary>
 
-        ![hero section preview](documentation/section-hero.jpg)
+    ![hero section preview](documentation/section-hero.jpg)
 
-        </details>
-        <br/>
+    </details>
+        
+    <br/>
 
   - **The Gallery Section**  
         contains a virtual video tour and a photo gallery.
 
-        <details close>
-        <summary>Gallery Section Preview</summary>
+    <details close>
+    <summary>Gallery Section Preview</summary>
 
-        ![video preview](documentation/section-video.jpg)
+    ![video preview](documentation/section-video.jpg)
 
-        ![gallery preview](documentation/section-photo-gallery.jpg)
+    ![gallery preview](documentation/section-photo-gallery.jpg)
 
-        </details>
+    </details>
 
   - **The About Section**  
         contains a number of articles and information about the city. Each article is linked to a separate html page.
 
-        <details close>
-        <summary>About Section Preview</summary>
+    <details close>
+    <summary>About Section Preview</summary>
 
-        ![about section preview](documentation/section-about.jpg)
+    ![about section preview](documentation/section-about.jpg)
 
-        </details>
+    </details>
 
   - **The Contact Us Section**  
         contains a button that is linked to the contact html page.
 
-        <details close>
-        <summary>Contact Us Section Preview</summary>
+    <details close>
+    <summary>Contact Us Section Preview</summary>
 
-        ![contact section preview](documentation/section-contact.jpg)
+    ![contact section preview](documentation/section-contact.jpg)
 
-        </details>
+    </details>
 
   - **The Tours Section**  
         contains a number of [TripAdvisor](https://www.tripadvisor.com) tours. each element functions as an external link that opens in a new page.
 
-        <details close>
-        <summary>Contact Tours Preview</summary>
+    <details close>
+    <summary>Contact Tours Preview</summary>
 
-        ![tours section preview](documentation/section-tours-footer.jpg)
+    ![tours section preview](documentation/section-tours-footer.jpg)
 
-        </details>
+    </details>
 
 - Article Page.
 
@@ -270,25 +271,25 @@ the breaking points used, are from this [article](https://testsigma.com/blog/css
     Responsivenes:
 
   - <details close>
-        <summary>992px Preview</summary>
+    <summary>992px Preview</summary>
 
-        ![992px preview](documentation/respons-992.png)
+    ![992px preview](documentation/respons-992.png)
 
-        </details>
-
-  - <details close>
-        <summary>768px Preview</summary>
-
-        ![768px preview](documentation/respons-768.png)
-
-        </details>
+    </details>
 
   - <details close>
-        <summary>480px Preview</summary>
+    <summary>768px Preview</summary>
 
-        ![480px preview](documentation/respons-480.png)
+    ![768px preview](documentation/respons-768.png)
 
-        </details>
+    </details>
+
+  - <details close>
+    <summary>480px Preview</summary>
+
+    ![480px preview](documentation/respons-480.png)
+
+    </details>
 
 - When the user hovers on an image a captions appears with information about the image. each image when clicked is a link to a separate html page. This photo gallery was made using flexbox following the information from these articles:
   
@@ -326,12 +327,7 @@ the breaking points used, are from this [article](https://testsigma.com/blog/css
 
 - The embeded video iframe responsiveness was accomplished by the istructions from this [article](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 
-    <details close>
-    <summary>Images Hover Effect</summary>
-
-    ![images hover effect](documentation/gif-image.gif)
-
-    </details>
+ 
 
 ### Accessibility
 
@@ -432,7 +428,7 @@ Please view [Testing.md](testing.md) for the testing documentation.
 - [Css grid](https://css-tricks.com/snippets/css/complete-guide-grid)
 
 - [Go to top button](https://levelup.gitconnected.com/animated-page-scroll-with-html-and-css-only-3788c4e2b853)
--
+
 - [Responsive iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 
 - Design and colors was inspired by these two websites:
